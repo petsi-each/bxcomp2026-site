@@ -80,6 +80,5 @@ Caso tenha outros sistemas ou tutoriais, colqoue aqui
 
 ## 🫂 Contribuidores
 
-<a href = "https://github.com/petsi-each/bxcomp2026-site/contributors">
-  <img src = "https://contrib.rocks/image?repo=petsi-each/pet-sites-boilerplate"/>
+<a href = "https://github.com/orgs/petsi-each/teams/sites"> Time PETSI
 </a>
