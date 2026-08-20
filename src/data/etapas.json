@@ -1,0 +1,42 @@
+[
+    {
+        "etapaIndice": 0,
+        "estaLiberada": true,
+        "tema": "Roda de Carnaval",
+        "descricao": "A coruja do BXCOMP perdeu a hora do bloco e precisa da sua ajuda para organizar a folia! Nesta primeira etapa, o ritmo do pandeiro guia os primeiros passos em lógica e programação.",
+        "iconName": "pandeiroIcon.tsx",
+        "desafios": []
+    },
+    {
+        "etapaIndice": 1,
+        "estaLiberada": true,
+        "tema": "Cordel & Repente",
+        "descricao": "Entre folhetos de cordel e rimas de repente, a coruja se enrolou nos versos! Ajude a decifrar mensagens e organizar as estrofes usando o que você aprendeu de programação.",
+        "iconName": "cordelIcon.tsx",
+        "desafios": []
+    },
+    {
+        "etapaIndice": 2,
+        "estaLiberada": true,
+        "tema": "Copa das Corujas",
+        "descricao": "É dia de decisão no gramado! A coruja monta o time e organiza o campeonato, mas as tabelas e estatísticas do jogo só fecham com uma boa lógica de programação.",
+        "iconName": "futebolIcon.tsx",
+        "desafios": []
+    },
+    {
+        "etapaIndice": 3,
+        "estaLiberada": true,
+        "tema": "Arraiá do BX",
+        "descricao": "Bandeirinhas no alto e fogueira acesa! No arraiá da coruja, quadrilha, comidas típicas e brincadeiras juninas escondem desafios de programação para os calouros resolverem.",
+        "iconName": "festaJuninaIcon.tsx",
+        "desafios": []
+    },
+    {
+        "etapaIndice": 4,
+        "estaLiberada": true,
+        "tema": "Lenda do Boto",
+        "descricao": "Reza a lenda que o boto-cor-de-rosa se encantou pelas águas do rio e sumiu com pistas importantes! Na última etapa, folclore amazônico e programação se encontram para fechar o BXCOMP 2026.",
+        "iconName": "botoIcon.tsx",
+        "desafios": []
+    }
+]

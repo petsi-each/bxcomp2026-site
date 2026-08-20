@@ -1,0 +1,99 @@
+[
+    {
+        "nome": "Andressa Nardy",
+        "linkedinUrl": "https://www.linkedin.com/in/andressa-nardy/",
+        "imgSrc": "./img/fotos_organizadores/nardyeluisa.jpg",
+        "dev": false
+    },
+    {
+        "nome": "Arthur Hernandes",
+        "linkedinUrl": "https://www.linkedin.com/in/arthur-hernandes-3a1838281/",
+        "imgSrc": "./img/fotos_organizadores/arthur.jpg",
+        "dev": true
+    },
+
+    {
+        "nome": "Dani Takara",
+        "linkedinUrl": "https://www.linkedin.com/in/dani-takara-869960289/",
+        "imgSrc": "./img/fotos_organizadores/dani.jpg",
+        "dev": true
+    },
+    {
+        "nome": "Henrique Lam",
+        "linkedinUrl": "https://www.linkedin.com/in/henrique-lam-ka-shing-chen/",
+        "imgSrc": "./img/fotos_organizadores/henrique.jpg",
+        "dev": true
+    },
+    {
+        "nome": "Giovani",
+        "linkedinUrl": "https://www.linkedin.com/in/lucas-giovani",
+        "imgSrc": "./img/fotos_organizadores/giovani.jpg",
+        "dev": true
+    },
+    {
+        "nome": "João Victor",
+        "linkedinUrl": "https://www.linkedin.com/in/jpereiralopes-0a5109206/",
+        "imgSrc": "./img/fotos_organizadores/joao.jpg",
+        "dev": true
+    },
+    {
+        "nome": "Júlio Arroio",
+        "linkedinUrl": "https://www.linkedin.com/in/j%C3%BAlio-arroio-silva-77a15b2a7/",
+        "imgSrc": "./img/fotos_organizadores/julio.jpg",
+        "dev": true
+    },
+    {
+        "nome": "Luan Pinheiro",
+        "linkedinUrl": "https://www.linkedin.com/in/luanpereirapinheiro/",
+        "imgSrc": "./img/fotos_organizadores/luan.jpg",
+        "dev": false
+    },
+    {
+        "nome": "Luísa",
+        "linkedinUrl": "#",
+        "imgSrc": "./img/fotos_organizadores/nardyeluisa.jpg",
+        "dev": false
+    },
+    {
+        "nome": "Mari",
+        "linkedinUrl": "#",
+        "imgSrc": "./img/fotos_organizadores/mari.jpg",
+        "dev": false
+    },
+    {
+        "nome": "Marcos K.",
+        "linkedinUrl": "https://www.linkedin.com/in/marcos-ryoiti-kurosawa-5b12912b3/",
+        "imgSrc": "./img/fotos_organizadores/marcos.jpg",
+        "dev": true
+    },
+    {
+        "nome": "Rayssa",
+        "linkedinUrl": "https://www.linkedin.com/in/rayssabuarque/",
+        "imgSrc": "./img/fotos_organizadores/rayssa.jpg",
+        "dev": true
+    },
+    {
+        "nome": "Tae Jin Chun",
+        "linkedinUrl": "https://www.linkedin.com/in/tae-jin-chun/",
+        "imgSrc": "./img/fotos_organizadores/tae.jpg",
+        "dev": false
+    },
+    {
+        "nome": "Thales",
+        "linkedinUrl": "https://www.linkedin.com/in/thales-iamamura-346584313/",
+        "imgSrc": "./img/fotos_organizadores/thales.jpg",
+        "dev": false
+    },
+    {
+        "nome": "Vinícius",
+        "linkedinUrl": "https://www.linkedin.com/in/vinicius-francisco-oliveira/",
+        "imgSrc": "./img/fotos_organizadores/vini.jpg",
+        "dev": false
+    },
+    {
+        "nome": "Vitória Castro",
+        "linkedinUrl": "https://www.linkedin.com/in/vitoriacastros/",
+        "imgSrc": "./img/fotos_organizadores/tori.jpg",
+        "dev": true
+    }
+]

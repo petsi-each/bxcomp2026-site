@@ -1,0 +1,133 @@
+body {
+  background-color: #23571F;
+}
+
+.titulobrilhante {
+  text-shadow: 0 4px 20px rgba(255, 175, 48, 0.3);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: normal;
+  background: linear-gradient(180deg, var(--ouro, #FFAF30) 56.25%, var(--azulelegante, #3060B2) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titulo {
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: auto;
+}
+
+.borda-tracejada {
+	width: 190px;
+  	height: 190px;
+
+	border-radius: 200px;
+	border-width: 2px;
+	border-style: dashed;
+	border-color: #DDCBA1;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.borda-azul {
+	width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+
+	background-color: #17240F;
+	border-radius: 200px;
+
+	outline: 5px solid #FFAF30;
+	outline-offset: -5px;
+
+	filter: drop-shadow(0 4px 12px rgba(255, 175, 48, 0.45));
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.foto {
+	width: 155px;
+  	height: 155px;
+	object-fit: cover;
+	border-radius: 200px;
+	background-color: #3060B2;
+	color: #FFFCE3;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size: 2rem;
+}
+
+.nome {
+	width: 190px;
+	height: 44px;
+	flex-shrink: 0;
+
+	border-radius: 180px;
+	border: none;
+	background-color: #DDCBA1D9;
+
+	cursor: pointer;
+
+	color: #17240F;
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+
+	margin-top: 15px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: background-color 0.2s ease;
+}
+
+.nome:hover {
+	background-color: #FFAF30;
+}
+
+.organizador {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	margin: 22px;
+}
+
+.selo-organizador {
+  position: absolute;
+  top: 88px;
+  right: 30px;
+  width: 56px;
+  height: 56px;
+  z-index: 2;
+}
+
+.coluna-organizador{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+	max-width: 1300px;
+	margin: auto;
+}
+
+@media (max-width: 600px) {
+	h1{
+		font-size: 12vw;
+	}
+}

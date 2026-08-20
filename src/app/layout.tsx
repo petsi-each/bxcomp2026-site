@@ -4,12 +4,12 @@ import "./globals.css";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["100","200","300","400","500","600","700","800","900"]
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
-  title: "PET SITES BOILERPLATE",
-  description: "Templates para projetos criados no setor de Sites do PET-SI",
+  title: "BXCOMP 2026 — Brasilidades",
+  description: "Site oficial do BXCOMP 2026, o Campeonato de Programação para Calouros do Curso de Sistemas de Informação da EACH-USP, organizado pelo PET-SI. Edição 2026: Brasilidades.",
 };
 
 export default function RootLayout({
@@ -18,12 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${poppins.className}`}
-      >
-        {children}
-      </body>
+    <html lang="pt-BR">
+      <body className={`${poppins.className}`}>{children}</body>
     </html>
   );
 }

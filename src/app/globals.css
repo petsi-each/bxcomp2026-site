@@ -1,21 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Identidade BXCOMP 2026 · "Brasilidades" (mesmas variáveis do site anterior, novos valores) */
+  --branco: #DDCBA1;
+  --azulescuro: #23571F;
+  --azulescuro2: #17240F;
+  --azulciano: #498BA7;
+  --azulelegante: #3060B2;
+  --creme: #FFFCE3;
+  --verdeclaro: #EAF7EC;
+  --ouro: #FFAF30;
+  --amarelo: #FFC873;
+  --laranja: #FFAF30;
+  --marrom: #3060B2;
+  --marromsuave: #4A7BC9;
+  --preto: #17240F;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--branco);
+  background: var(--azulescuro);
+}
+
+::selection {
+  background: var(--laranja);
+  color: var(--azulescuro2);
+}
+
+.gradiente-titulo {
+  background: linear-gradient(180deg, var(--ouro) 0%, var(--amarelo) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

@@ -1,0 +1,2 @@
+Coloque aqui as fotos dos organizadores (ex.: nome.jpg) e referencie em
+src/data/organizadores.json pelo campo "imgSrc": "/img/fotos_organizadores/nome.jpg".
