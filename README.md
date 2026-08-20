@@ -4,21 +4,17 @@
 
 <b> Para começar, leia a documentação do PET-SI sobre <a href="" target="_blank">como iniciar com o projeto</a> </b>
 
-<img src="http://www.each.usp.br/petsi/wp-content/uploads/2020/03/cropped-logo-pet-si-horizontal-1024x215.png" alt="Logo PET SI" width="700">
+<h1> Site BXCOMP 2026 </h1>
 
-<h1> Nome do projeto </h1>
-
-[![Website](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](https://petsi-each.github.io/pet-sites-boilerplate/)
+[![Website](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](https://bxcomp26.petsi.com.br)
 [![PET-SI](https://img.shields.io/badge/Instagram-PET%20SI-darkred)](https://www.instagram.com/petsieach/)
 
 
-Breve descrição do projeto e do seu objetivo.
+O BXCOMP é o campeonato de programação para calouros de Sistemas de Informação da EACH USP.
 
 </div>
 
-
 <br/><br/>
-
 
 ## 🖱️ Tecnologias
 
@@ -41,17 +37,6 @@ Breve descrição do projeto e do seu objetivo.
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 </div>
-<br/><br/>
-
-
-## 🖌️ Design
-
-<div align="center">
-    
-[![Veja no Figma](https://img.shields.io/badge/Figma-Ver%20design-darkred?logo=figma&logoColor=f5f5f5)](linkdofigma)
-
-
-</div>
 
 <br/><br/>
 
@@ -64,8 +49,8 @@ Requisitos:
 - Git
 
 ```bash
-git clone git@github.com:petsi-each/nomedoprojeto.git
-cd nomedoprojeto
+git clone git@github.com:petsi-each/bxcomp2026-site.git
+cd bxcomp2026-site
 npm i
 ```
 
