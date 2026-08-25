@@ -1,175 +1,38 @@
 [
     {
-      "nome": ":(){:|:&};:",
-      "membros": [
-        "Jaime Cavalcanti Guedes",
-        "Enzo Brilhante Mattos",
-        "Rafael Pioto Gomes",
-        "Thiago de Salvo Castro Alves"
-      ],
-      "pontos": [ 0, 5, 8, 6, 12 ],
-      "iconPath": "/equipes/forkbomb.png"
+        "nome": "Corujas do Forró",
+        "membros": ["Beatriz Almeida", "Rafael Nunes", "Camila Ferreira", "Lucas Tavares"],
+        "pontos": [18, 12, 0, 0, 0],
+        "iconPath": "/equipes/equipe-corujas-do-forro.svg"
     },
     {
-      "nome": "Se fosse Python compilava",
-      "membros": [
-        "Raphael Augusto de Lima Alves",
-        "Igor Nascimento Silva",
-        "Antonio Pedro Costa Oliveira Pretti Espindula",
-        "Felipe Yuji Okokama"
-      ],
-      "pontos": [ 0, 3, 7, 3, 8 ],
-      "iconPath": "/equipes/sefossepython.png"
+        "nome": "SambaCode",
+        "membros": ["Marina Souza", "Thiago Ribeiro", "Fernanda Lima", "Bruno Cardoso"],
+        "pontos": [20, 15, 0, 0, 0],
+        "iconPath": "/equipes/equipe-sambacode.svg"
     },
     {
-      "nome": "Urubu Punga",
-      "membros": [
-        "Vinicios Conceição",
-        "Andrew Luigi Ferreira Lima",
-        "João Pedro Becer da Cunha",
-        "Pedro Paulo Andrade Oliveira"
-      ],
-      "pontos": [ 0, 0, 3, 0, 5 ],
-      "iconPath": "/equipes/urubupunga.png"
+        "nome": "Cordel.exe",
+        "membros": ["Juliana Rocha", "Pedro Henrique Dias", "Larissa Martins", "Gabriel Pereira"],
+        "pontos": [14, 9, 0, 0, 0],
+        "iconPath": "/equipes/equipe-cordel-exe.svg"
     },
     {
-      "nome": "TROPA DE ELSE IF",
-      "membros": [
-        "Douglas Macedo Oliveira",
-        "Caique Costa Frias",
-        "Caique Sidrão Siqueira Barbosa",
-        "Filipi Gonçalves Rios"
-      ],
-      "pontos": [ 0, 14, 8, 5, 12 ],
-      "iconPath": "/equipes/elseif.png"
+        "nome": "Zagueiros de Bits",
+        "membros": ["Isabela Costa", "Matheus Barbosa", "Yasmin Correia", "Diego Santana"],
+        "pontos": [10, 17, 0, 0, 0],
+        "iconPath": "/equipes/equipe-zagueiros-de-bits.svg"
     },
     {
-      "nome": "return divas;",
-      "membros": [
-        "Mariana Medeiros Santos",
-        "Manuela Campos de Amorim",
-        "Mikelly Dantas Reis",
-        "Sabrina Cristan"
-      ],
-      "pontos": [ 0, 0, 7, 0, 8 ],
-      "iconPath": "/equipes/returndivas.png"
+        "nome": "Boto Turing",
+        "membros": ["Ana Clara Vieira", "Felipe Moreira", "Sofia Azevedo", "Gustavo Pinto"],
+        "pontos": [8, 6, 0, 0, 0],
+        "iconPath": "/equipes/equipe-boto-turing.svg"
     },
     {
-      "nome": "Os Bugados",
-      "membros": [
-        "Pedro Botelho Gondim Dantas",
-        "Marcos Gabriel Chagas Rodrigues",
-        "Maria Carolina Soares Costa"
-      ],
-      "pontos": [ 0, 0, 0, 0, 0 ],
-      "iconPath": "/equipes/osbugados.png"
-    },
-    {
-      "nome": "Look What You Made Us Code",
-      "membros": [
-        "Ana Beatriz Fernandes Alves",
-        "Arthur Brandão da Mata",
-        "Caio Gaspar Paula",
-        "Marco Lima Maia"
-      ],
-      "pontos": [ 0, 4, 3, 2, 2 ],
-      "iconPath": "/equipes/lookwhatyoumadeuscode.png"
-    },
-    {
-      "nome": "Jaguatiricas Emo",
-      "membros": [
-        "Adan Lucas Guinatto Cunha",
-        "Kauã Amaral Moreno",
-        "Guilherme Delbon Souza",
-        "Kaua Ryu Nichioka Egami"
-      ],
-      "pontos": [ 0, 9, 7, 7, 12 ],
-      "iconPath": "/equipes/jaguatiricasemo.png"
-    },
-    {
-      "nome": "Garfo na Caveira",
-      "membros": [
-        "Rafael de Santana Lima",
-        "Raul Brasil de Sousa",
-        "Lucas Stefenoni Ramos",
-        "Giovane Giroldo da Silva"
-      ],
-      "pontos": [ 0, 13, 0, 6, 5 ],
-      "iconPath": "/equipes/garfonacaveira.png"
-    },
-    {
-      "nome": "Duck Coders",
-      "membros": [
-        "Rafaela Milantoni Santiago",
-        "Letícia Sati Matsuoka Tonaki",
-        "Samira Messias Lins",
-		"Caroline Aparecida Oliveira Santiago"
-      ],
-      "pontos": [ 0, 0, 0, 0, 2 ],
-      "iconPath": "/equipes/duckcoders.png"
-    },
-    {
-      "nome": "Discípulos do Helton",
-      "membros": [
-        "João Pedro Costa Santos",
-        "Pedro Gabriel Valente da Silva Oliveira",
-        "Thainá Ferreira da Silva",
-        "Mateus Nunes Pereira"
-      ],
-      "pontos": [ 0, 0, 0, 0, 0 ],
-      "iconPath": "/equipes/discipulosdohelton.png"
-    },
-    {
-      "nome": "cavalos_de_trojan",
-      "membros": [
-        "Ayla dos Santos da Costa",
-        "Beatriz dos Santos Bento",
-        "Fernanda Yumi Taira",
-        "Guilherme Sacarrão Bastos"
-      ],
-      "pontos": [ 0, 0, 0, 2, 5 ],
-      "iconPath": "/equipes/cavalos_de_trojan.png"
-    },
-    {
-      "nome": "Aura Team",
-      "membros": [
-        "Gabriel Coutinho Cezar",
-        "Higor Mauricio da Silva",
-        "Fernando Silva Barreto Filho",
-        "Artur Rossoni Baraldi"
-      ],
-      "pontos": [ 0, 0, 0, 0, 0 ],
-      "iconPath": "/equipes/aurateam.png"
-    },
-    {
-      "nome": "ACCN",
-      "membros": [
-        "Alexandre Paulo Power dos Santos",
-        "Nicolas Fagundes Justi Muniz",
-        "Cristian de Lima Meira",
-        "Carlos Vitor de Lima Pinto"
-      ],
-      "pontos": [ 0, 10, 14, 6, 16 ],
-      "iconPath": "/equipes/ACCN.png"
-    },
-    {
-      "nome": "A Ordem do Ponteiro",
-      "membros": [
-        "Luiz Eduardo da Silva",
-        "Nicholas Kim",
-        "Jeffrey Zhang"
-      ],
-      "pontos": [ 0, 0, 0, 0, 2 ],
-      "iconPath": "/equipes/aordemdoponteiro.png"
-    },
-    {
-      "nome": "2001: Uma Odisseia no Malloc",
-      "membros": [
-        "Guilherme de Carvalho Gois",
-        "Gustavo Henrique dos Santos",
-        "Lucas Henrique Alves Nunes Bitencourt"
-      ],
-      "pontos": [ 0, 0, 0, 0, 0 ],
-      "iconPath": "/equipes/odisseianomalloc.png"
+        "nome": "Arraiá Binário",
+        "membros": ["Letícia Farias", "Vinícius Teixeira", "Manuela Cavalcante", "Enzo Ramalho"],
+        "pontos": [16, 4, 0, 0, 0],
+        "iconPath": "/equipes/equipe-arraia-binario.svg"
     }
 ]
