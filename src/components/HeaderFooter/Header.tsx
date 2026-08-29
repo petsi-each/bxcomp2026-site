@@ -17,7 +17,7 @@ const Header = () => {
 
     return (
         <>
-            <header className="z-[200] flex fixed top-0 w-screen justify-between items-center bg-verdeclaro/95 backdrop-blur border-b border-bege/10 py-[6px] pl-6 pr-4">
+            <header className="z-[200] flex fixed top-0 w-screen justify-between items-center bg-verdeclaro/95 backdrop-blur border-b border-bege/10 py-[6px] pl-6 pr-8">
                 <Link href="/">
                     <img className="w-[120px] md:w-[140px]" src="/images/logo-bx.png" alt="Logo BXCOMP" />
                 </Link>
@@ -28,7 +28,7 @@ const Header = () => {
                         <Link
                             key={link.href}
                             href={link.href}
-                            className="text-bege text-sm font-subtitulo font-semibold whitespace-nowrap px-4 py-2 rounded-full hover:bg-laranja hover:text-verdescuro2 transition-colors"
+                            className="text-preto text-sm font-subtitulo font-semibold whitespace-nowrap px-4 py-2 rounded-full hover:bg-laranja hover:text-verdescuro2 transition-colors"
                         >
                             {link.label}
                         </Link>
