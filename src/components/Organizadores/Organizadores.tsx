@@ -10,9 +10,9 @@ export default function Organizadores() {
             </div>
 
             {organizadoresList.length === 0 ? (
-                <div className="mx-auto max-w-[560px] text-center px-8 py-14 border border-dashed border-branco/30 rounded-card">
+                <div className="mx-auto max-w-[560px] text-center px-8 py-14 border border-dashed border-bege/30 rounded-card">
                     <strong className="block font-eloquent text-creme text-xl mb-2">Equipe em formação</strong>
-                    <p className="font-roboto text-branco/80">
+                    <p className="font-roboto text-bege/80">
                         A equipe organizadora do BXCOMP 2026 será apresentada aqui em breve.
                     </p>
                 </div>

@@ -18,7 +18,7 @@ export default function Regulamento() {
 
                 <h1 className="gradiente-titulo font-cinzel_decorative font-black text-3xl md:text-5xl px-2 pt-32 pb-8">Regulamento 2026</h1>
 
-                <p className="font-subtitulo text-lg md:text-xl text-branco mb-8">
+                <p className="font-subtitulo text-lg md:text-xl text-bege mb-8">
                     <b className="text-laranja">Última atualização em:</b> {latestDate.toLocaleDateString('pt-BR')}
                 </p>
 
@@ -31,7 +31,7 @@ export default function Regulamento() {
                     </iframe>
                 </div>
 
-                <ul className="font-roboto text-lg mt-9 flex flex-col items-center gap-1 text-branco pb-24">
+                <ul className="font-roboto text-lg mt-9 flex flex-col items-center gap-1 text-bege pb-24">
                     {
                         regulamento.modificacoes.map((modificacao, idx) => {
                             return <li key={idx}><b className="text-laranja capitalize">{modificacao.tipo}</b> em: {modificacao.data}</li>

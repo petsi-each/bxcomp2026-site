@@ -6,7 +6,7 @@ interface IconProps {
 }
 
 const PandeiroIcon: React.FC<IconProps> = ({ selecionado }) => {
-    const cor = selecionado ? "var(--ouro)" : "var(--branco)";
+    const cor = selecionado ? "var(--ouro)" : "var(--bege)";
     return (
         <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
             <circle cx="24" cy="24" r="19" fill="none" stroke={cor} strokeWidth="3" />

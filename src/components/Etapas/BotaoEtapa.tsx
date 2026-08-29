@@ -45,7 +45,7 @@ export default function BotaoEtapa(props: BotaoEtapaProps) {
                         />
                 }
             </div>
-            <span className="font-subtitulo text-[0.65rem] md:text-xs text-branco text-center leading-tight">
+            <span className="font-subtitulo text-[0.65rem] md:text-xs text-bege text-center leading-tight">
                 {props.etapa.tema}
             </span>
         </button>

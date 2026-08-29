@@ -9,9 +9,9 @@
 
 :root {
   /* Identidade BXCOMP 2026 · "Brasilidades" (mesmas variáveis do site anterior, novos valores) */
-  --branco: #DDCBA1;
-  --azulescuro: #23571F;
-  --azulescuro2: #17240F;
+  --bege: #DDCBA1;
+  --verdescuro: #23571F;
+  --verdescuro2: #17240F;
   --azulciano: #498BA7;
   --azulelegante: #3060B2;
   --creme: #FFFCE3;
@@ -19,19 +19,19 @@
   --ouro: #FFAF30;
   --amarelo: #FFC873;
   --laranja: #FFAF30;
-  --marrom: #3060B2;
-  --marromsuave: #4A7BC9;
+  --azul: #3060B2;
+  --azulsuave: #4A7BC9;
   --preto: #17240F;
 }
 
 body {
-  color: var(--branco);
-  background: var(--azulescuro);
+  color: var(--bege);
+  background: var(--verdescuro);
 }
 
 ::selection {
   background: var(--laranja);
-  color: var(--azulescuro2);
+  color: var(--verdescuro2);
 }
 
 .gradiente-titulo {

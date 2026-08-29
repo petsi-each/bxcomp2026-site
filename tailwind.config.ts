@@ -10,9 +10,9 @@ const config: Config = {
     extend: {
       colors: {
         // ---- Identidade BXCOMP 2026 · "Brasilidades" ----
-        "branco": '#DDCBA1',      // texto claro sobre fundo escuro (bege)
-        "azulescuro": '#23571F',  // fundo principal (verde escuro)
-        "azulescuro2": '#17240F', // variação mais profunda (cards/gradientes)
+        "bege": '#DDCBA1',      // texto claro sobre fundo escuro (bege)
+        "verdescuro": '#23571F',  // fundo principal (verde escuro)
+        "verdescuro2": '#17240F', // variação mais profunda (cards/gradientes)
         "azulciano": '#498BA7',   // acento secundário (azul)
         "azulelegante": '#3060B2',// acento de contraste (azul forte)
         "creme": '#FFFCE3',       // fundo claro quente (seções claras)
@@ -20,8 +20,8 @@ const config: Config = {
         "ouro": '#FFAF30',        // laranja/dourado — topo de gradientes
         "amarelo": '#FFC873',     // laranja claro — base de gradientes
         "laranja": '#FFAF30',     // cor de ação principal
-        "marrom": '#3060B2',      // (mantido por compatibilidade de nome) botão contraste
-        "marromsuave": '#4A7BC9', // hover do botão de contraste
+        "azul": '#3060B2',      // (mantido por compatibilidade de nome) botão contraste
+        "azulsuave": '#4A7BC9', // hover do botão de contraste
         "preto": '#17240F',       // texto sobre fundo claro
       },
       fontFamily: {

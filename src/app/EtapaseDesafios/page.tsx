@@ -19,7 +19,7 @@ const EtapasEDesafios = () => {
                     Etapas & Desafios
                 </h1>
 
-                <div className="bg-gradient-to-br from-azulescuro2 to-azulescuro rounded-card p-6 md:p-10 shadow-soft">
+                <div className="bg-gradient-to-br from-verdescuro2 to-verdescuro rounded-card p-6 md:p-10 shadow-soft">
                     <div className="flex flex-row justify-between mb-[30px]">
                         <CabecalhoEtapa
                             etapas={etapasData}
