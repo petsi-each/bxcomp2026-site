@@ -5,7 +5,7 @@ import Organizadores from "../../components/Organizadores/Organizadores";
 
 const Oqueeobxcomp = () => {
     return (
-        <div className="page">
+        <div className="page pt-14">
             <Header />
             <Sobre></Sobre>
             <Organizadores></Organizadores>

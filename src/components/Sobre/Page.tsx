@@ -14,7 +14,7 @@ export default function Sobre() {
                     O tradicional Campeonato de Programação para Calouros do Curso de Sistemas de Informação
                     da EACH-USP retorna com sua 16ª edição! <br />
                     <br />
-                    Em 2026, o BXCOMP celebra as <strong>Brasilidades</strong>: carnaval, cordel, futebol,
+                    Em 2026, o BXCOMP celebra as <strong>brasilidades</strong>: carnaval, cordel, futebol,
                     festa junina e folclore viram cenário para desafios de lógica e programação.
                 </p>
 

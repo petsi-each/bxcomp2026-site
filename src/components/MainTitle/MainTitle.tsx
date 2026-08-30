@@ -23,7 +23,7 @@ const MainTitle = () => {
           </h1>
 
           <p className="text-bege leading-relaxed text-lg max-w-[46ch] mx-auto md:mx-0 mb-9 font-roboto">
-            O BXComp é o Campeonato de Programação para Calouros do Curso de Sistemas de Informação, organizado pelo PET-SI. Em 2026, a competição celebra as <strong className="text-creme">Brasilidades</strong>: cultura, música e tradições do Brasil viram desafio de lógica e programação.
+            O BXComp é o Campeonato de Programação para Calouros do Curso de Sistemas de Informação, organizado pelo PET-SI. Em 2026, a competição celebra as <strong className="text-creme">brasilidades</strong>: cultura, música e tradições do Brasil viram desafio de lógica e programação.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
