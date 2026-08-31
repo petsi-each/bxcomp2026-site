@@ -7,7 +7,7 @@ interface IconProps {
 
 const FestaJuninaIcone: React.FC<IconProps> = () => {
     return (
-        <img src="/iconesEtapas/festaJunina.png" alt="Boto" className="w-full h-full" />
+        <img src="/iconesEtapas/festaJunina.png" alt="Festa Junina" className="w-full h-full" />
     );
 };
 

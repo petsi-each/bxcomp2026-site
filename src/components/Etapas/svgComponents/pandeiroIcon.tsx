@@ -7,7 +7,7 @@ interface IconProps {
 
 const PandeiroIcone: React.FC<IconProps> = () => {
     return (
-        <img src="/iconesEtapas/pandeiro.png" alt="Boto" className="w-full h-full" />
+        <img src="/iconesEtapas/pandeiro.png" alt="Pandeiro" className="w-full h-full" />
     );
 };
 

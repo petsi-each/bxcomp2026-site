@@ -7,7 +7,7 @@ interface IconProps {
 
 const LivroIcone: React.FC<IconProps> = () => {
     return (
-        <img src="/iconesEtapas/livro.png" alt="Boto" className="w-full h-full" />
+        <img src="/iconesEtapas/livro.png" alt="Livro" className="w-full h-full" />
     );
 };
 

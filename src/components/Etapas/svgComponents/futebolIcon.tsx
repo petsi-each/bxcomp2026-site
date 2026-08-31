@@ -7,7 +7,7 @@ interface IconProps {
 
 const FutebolIcone: React.FC<IconProps> = () => {
     return (
-        <img src="/iconesEtapas/futebol.png" alt="Boto" className="w-full h-full" />
+        <img src="/iconesEtapas/futebol.png" alt="Futebol" className="w-full h-full" />
     );
 };
 
