@@ -18,8 +18,8 @@ const MainTitle = () => {
             </span>
           </div>
 
-          <h1 className="font-display font-black text-[2.6rem] md:text-[3.8rem] leading-[1.05] mb-6">
-            O que é o <span className="gradiente-titulo">BXCOMP</span>?
+          <h1 className="font-brasileira font-black text-[2.6rem] md:text-[3.8rem] leading-[1.05] mb-6">
+            O que é o <span className="gradiente-destaque" data-text="BXCOMP">BXCOMP</span>?
           </h1>
 
           <p className="text-branco leading-relaxed text-lg max-w-[46ch] mx-auto md:mx-0 mb-9 font-roboto">
