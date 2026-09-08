@@ -34,7 +34,7 @@ export default function BotaoEtapa(props: BotaoEtapaProps) {
             onClick={props.onClick}
             className="flex flex-col items-center w-[11%] gap-2 justify-end py-2 px-1 disabled:cursor-not-allowed"
         >
-            <div className={`flex flex-col items-center h-[35px] w-[35px] md:h-[9vw] md:w-full transition-transform duration-300 ${props.selecionado ? "scale-110 opacity-100" : "scale-100 opacity-60 hover:opacity-90"}`}>
+            <div className={`flex flex-col items-center h-[35px] w-[35px] md:h-[9vw] md:w-full transition-transform duration-300 ${props.selecionado ? "scale-110 opacity-100" : "scale-100 opacity-70 hover:opacity-90"}`}>
                 {
                     props.etapa.estaLiberada == false ?
                         <QuestionMark />

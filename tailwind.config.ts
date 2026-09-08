@@ -23,6 +23,10 @@ const config: Config = {
         "azul": '#3060B2',      // (mantido por compatibilidade de nome) botão contraste
         "azulsuave": '#4A7BC9', // hover do botão de contraste
         "preto": '#17240F',       // texto sobre fundo claro
+        "melao": "#E1FADF",
+        "verde": "#23571F",
+        "verderocket": "#02C59B",
+        "azulescuro": "#193375",
       },
       fontFamily: {
         eloquent: ['Montserrat', 'sans-serif'],        // Título — Montserrat Black

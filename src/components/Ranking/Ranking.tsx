@@ -67,7 +67,7 @@ const PointBar: React.FC<PointBarProps> = ({ equipe, topScores }) => {
     const desktopBarWidth = `calc((100% - 17rem - ${ICON_FOOTPRINT_PX}px) * ${percentage / 100} + ${ICON_FOOTPRINT_PX}px)`;
 
     return (
-        <article className="-z-10 pt-[15px] text-white">
+        <article className="-z-0 pt-[15px] text-white">
             
             {/* ========== MOBILE (Telas Menores) ========== */}
             <div className="md:hidden">
@@ -77,7 +77,7 @@ const PointBar: React.FC<PointBarProps> = ({ equipe, topScores }) => {
                 </div>
                 <div className="w-full px-8 mb-6 flex items-center">
                     <div style={{ width: mobileBarWidth }} className="flex items-center flex-shrink-0">
-                        <div className="flex flex-grow items-center h-10 shadow-soft bg-white rounded-full">
+                        <div className="flex flex-grow items-center -z-1 h-10 shadow-soft bg-white rounded-full">
                             <div style={{ boxShadow: '0 5px 15px rgba(0, 0, 0, 0.25)' }} className="w-full rounded-full m-2 h-4 bg-gradient-to-r from-ouro to-laranja"></div>
                         </div>
                         <div>
@@ -149,7 +149,7 @@ const Ranking: React.FC<RankingProps> = ({ equipes, displayQuantity = -1 }) => {
     const displayEquipes = displayQuantity < 0 ? sortedEquipes : sortedEquipes.slice(0, displayQuantity)
 
     return (
-        <section className="grid grid-rows-1 gap-8 md:gap-2 md:pl-20" style={{ marginTop: "90px", marginBottom: "30px" }}>
+        <section className="grid bg-verde grid-rows-1 gap-8 md:gap-2 md:pl-20 pt-[90px] pb-[30px]">
             <h1 className="text-[3.2rem] w-fit font-black pl-7 md:pl-0 font-cinzel_decorative gradiente-titulo" style={{ marginTop: "10px" }}>Ranking</h1>
 
             {equipes.length === 0 ? (
