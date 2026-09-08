@@ -2,14 +2,20 @@ import { Etapa } from "@/components/Etapas/EtapasInterfaces";
 
 interface IconProps {
     etapa: Etapa;
+    tema: string;
     selecionado: boolean;
 }
 
-const BotoIcon: React.FC<IconProps> = ({ selecionado }) => {
+const BotoIcon: React.FC<IconProps> = ({ selecionado, tema }) => {
     const cor = selecionado ? "var(--ouro)" : "var(--bege)";
     return (
-        <img src="/iconesEtapas/boto.png" alt="Boto" className="w-full h-full" />
+        <div className="w-full h-full">
+            <img src="/iconesEtapas/boto.png" alt="Boto" />
+            <span className="font-subtitulo text-[0.65rem] md:text-xs text-bege text-center leading-tight">
+                {tema}
+            </span>
+        </div>
     );
 };
 
-export default BotoIcone;
+export default BotoIcon;

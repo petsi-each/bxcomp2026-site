@@ -2,14 +2,20 @@ import { Etapa } from "@/components/Etapas/EtapasInterfaces";
 
 interface IconProps {
     etapa: Etapa;
+    tema: string;
     selecionado: boolean;
 }
 
-const PandeiroIcon: React.FC<IconProps> = ({ selecionado }) => {
+const PandeiroIcon: React.FC<IconProps> = ({ selecionado, tema }) => {
     const cor = selecionado ? "var(--ouro)" : "var(--bege)";
     return (
-        <img src="/iconesEtapas/pandeiro.png" alt="Pandeiro" className="w-full h-full" />
+        <div className="w-full h-full">
+            <img src="/iconesEtapas/pandeiro.png" alt="Pandeiro" />
+            <span className="font-subtitulo text-[0.65rem] md:text-xs text-bege text-center leading-tight">
+                {tema}
+            </span>
+        </div>
     );
 };
 
-export default PandeiroIcone;
+export default PandeiroIcon;
