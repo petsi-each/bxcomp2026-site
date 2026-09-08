@@ -5,7 +5,8 @@ interface IconProps {
     selecionado: boolean;
 }
 
-const LivroIcone: React.FC<IconProps> = () => {
+const CordelIcon: React.FC<IconProps> = ({ selecionado }) => {
+    const cor = selecionado ? "var(--ouro)" : "var(--bege)";
     return (
         <img src="/iconesEtapas/livro.png" alt="Livro" className="w-full h-full" />
     );

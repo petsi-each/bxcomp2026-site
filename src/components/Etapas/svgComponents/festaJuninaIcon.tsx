@@ -5,7 +5,8 @@ interface IconProps {
     selecionado: boolean;
 }
 
-const FestaJuninaIcone: React.FC<IconProps> = () => {
+const FestaJuninaIcon: React.FC<IconProps> = ({ selecionado }) => {
+    const cor = selecionado ? "var(--ouro)" : "var(--bege)";
     return (
         <img src="/iconesEtapas/festaJunina.png" alt="Festa Junina" className="w-full h-full" />
     );

@@ -5,7 +5,8 @@ interface IconProps {
     selecionado: boolean;
 }
 
-const FutebolIcone: React.FC<IconProps> = () => {
+const FutebolIcon: React.FC<IconProps> = ({ selecionado }) => {
+    const cor = selecionado ? "var(--ouro)" : "var(--bege)";
     return (
         <img src="/iconesEtapas/futebol.png" alt="Futebol" className="w-full h-full" />
     );

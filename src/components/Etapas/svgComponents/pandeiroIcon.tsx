@@ -5,7 +5,8 @@ interface IconProps {
     selecionado: boolean;
 }
 
-const PandeiroIcone: React.FC<IconProps> = () => {
+const PandeiroIcon: React.FC<IconProps> = ({ selecionado }) => {
+    const cor = selecionado ? "var(--ouro)" : "var(--bege)";
     return (
         <img src="/iconesEtapas/pandeiro.png" alt="Pandeiro" className="w-full h-full" />
     );

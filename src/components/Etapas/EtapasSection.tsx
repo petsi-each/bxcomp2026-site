@@ -13,12 +13,12 @@ const EtapasSection = () => {
                 <h1 className="block font-cinzel_decorative text-[3.2rem] font-black gradiente-titulo">
                     etapas
                 </h1>
-                <p className="inline-block md:w-[26rem] mt-[10px] font-roboto text-base text-branco">
+                <p className="inline-block md:w-[26rem] mt-[10px] font-roboto text-base text-bege">
                     Estude ao rever os temas, desafios e resoluções já apresentadas nesta edição do BXCOMP!
                 </p>
             </div>
 
-            <div className="bg-gradient-to-br from-azulescuro2 to-azulescuro rounded-card p-6 md:p-10 shadow-soft">
+            <div className="bg-gradient-to-br from-verdescuro2 to-verdescuro rounded-card p-6 md:p-10 shadow-soft">
                 <BarraBotoes
                     etapas={etapasData}
                     idSelecionado={idSelecionado}
@@ -40,7 +40,7 @@ const EtapasSection = () => {
 
                     <div id="VerDesafios" className="flex my-4 md:my-8 justify-center items-center">
                         <Link href="/EtapaseDesafios">
-                            <button className="text-white border-2 bg-marrom border-marrom rounded-[1.5rem] px-[2.5rem] py-[1.1rem] font-subtitulo font-bold hover:bg-creme hover:text-marrom hover:border-creme transition duration-300">
+                            <button className="text-white border-2 bg-azul border-azul rounded-[1.5rem] px-[2.5rem] py-[1.1rem] font-subtitulo font-bold hover:bg-creme hover:text-azul hover:border-creme transition duration-300">
                                 Ver desafios
                             </button>
                         </Link>

@@ -5,7 +5,8 @@ interface IconProps {
     selecionado: boolean;
 }
 
-const BotoIcone: React.FC<IconProps> = () => {
+const BotoIcon: React.FC<IconProps> = ({ selecionado }) => {
+    const cor = selecionado ? "var(--ouro)" : "var(--bege)";
     return (
         <img src="/iconesEtapas/boto.png" alt="Boto" className="w-full h-full" />
     );

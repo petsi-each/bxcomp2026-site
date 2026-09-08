@@ -29,13 +29,13 @@ interface CoroaProps {
 const Coroa: React.FC<CoroaProps> = ({ scorePosition }) => {
     if (scorePosition < 0 || scorePosition > 2) return null;
 
-    const cores = ["var(--ouro)", "var(--azulciano)", "var(--marromsuave)"];
+    const cores = ["var(--ouro)", "var(--azulciano)", "var(--azulsuave)"];
     const cor = cores[scorePosition];
 
     return (
         <svg viewBox="0 0 60 60" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8 34 L14 12 L22 26 L30 8 L38 26 L46 12 L52 34 Z" fill={cor} stroke="var(--azulescuro2)" strokeWidth="1.5" strokeLinejoin="round" />
-            <rect x="8" y="34" width="44" height="9" rx="3" fill={cor} stroke="var(--azulescuro2)" strokeWidth="1.5" />
+            <path d="M8 34 L14 12 L22 26 L30 8 L38 26 L46 12 L52 34 Z" fill={cor} stroke="var(--verdescuro2)" strokeWidth="1.5" strokeLinejoin="round" />
+            <rect x="8" y="34" width="44" height="9" rx="3" fill={cor} stroke="var(--verdescuro2)" strokeWidth="1.5" />
             <circle cx="14" cy="12" r="3" fill={cor} />
             <circle cx="30" cy="8" r="3.4" fill={cor} />
             <circle cx="46" cy="12" r="3" fill={cor} />
@@ -153,9 +153,9 @@ const Ranking: React.FC<RankingProps> = ({ equipes, displayQuantity = -1 }) => {
             <h1 className="text-[3.2rem] w-fit font-black pl-7 md:pl-0 font-cinzel_decorative gradiente-titulo" style={{ marginTop: "10px" }}>Ranking</h1>
 
             {equipes.length === 0 ? (
-                <div className="mx-7 md:mr-20 px-8 py-14 text-center border border-dashed border-branco/30 rounded-card">
+                <div className="mx-7 md:mr-20 px-8 py-14 text-center border border-dashed border-bege/30 rounded-card">
                     <strong className="block font-eloquent text-creme text-xl mb-2">Ainda não há pontuações</strong>
-                    <p className="font-roboto text-branco/80 max-w-[520px] mx-auto">
+                    <p className="font-roboto text-bege/80 max-w-[520px] mx-auto">
                         O ranking do BXCOMP 2026 será atualizado conforme as etapas presenciais acontecem.
                     </p>
                 </div>

@@ -14,12 +14,12 @@ const EtapasEDesafios = () => {
         <div className="page">
             <Header></Header>
 
-            <div id="EtapasPage" className="flex w-full flex-col justify-center gap-4 px-7 mt-20 md:px-20 pb-24 bg-transparent">
+            <div id="EtapasPage" className="flex w-full flex-col justify-center gap-4 px-7 mt-20 md:px-20 pb-24 pt-14 bg-transparent">
                 <h1 className="text-5xl py-9 font-display font-black gradiente-titulo drop-shadow-[0_2px_6px_rgba(255,175,48,0.25)]">
                     Etapas & Desafios
                 </h1>
 
-                <div className="bg-gradient-to-br from-azulescuro2 to-azulescuro rounded-card p-6 md:p-10 shadow-soft">
+                <div className="bg-gradient-to-br from-verdescuro2 to-verdescuro rounded-card p-6 md:p-10 shadow-soft">
                     <div className="flex flex-row justify-between mb-[30px]">
                         <CabecalhoEtapa
                             etapas={etapasData}
