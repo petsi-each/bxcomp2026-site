@@ -7,11 +7,16 @@ interface IconProps {
 }
 
 const PandeiroIcon: React.FC<IconProps> = ({ selecionado, tema }) => {
-    const cor = selecionado ? "var(--ouro)" : "var(--bege)";
     return (
-        <div className="w-full h-full">
-            <img src="/iconesEtapas/pandeiro.png" alt="Pandeiro" />
-            <span className="font-subtitulo text-[0.65rem] md:text-xs text-bege text-center leading-tight">
+        <div className="flex flex-col items-center justify-end w-full h-full gap-2">
+            <img 
+                src="/iconesEtapas/pandeiro.png" 
+                alt={tema} 
+                className="max-h-20 object-contain"
+            />
+            <span className={`hidden min-[500px]:block font-subtitulo text-xs md:text-sm text-center leading-tight transition-colors ${
+                selecionado ? "text-ouro font-semibold" : "text-bege"
+            }`}>
                 {tema}
             </span>
         </div>
