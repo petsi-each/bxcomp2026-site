@@ -9,7 +9,7 @@
     },
     {
         "etapaIndice": 1,
-        "estaLiberada": true,
+        "estaLiberada": false,
         "tema": "Cordel & Repente",
         "descricao": "Entre folhetos de cordel e rimas de repente, a coruja se enrolou nos versos! Ajude a decifrar mensagens e organizar as estrofes usando o que você aprendeu de programação.",
         "iconName": "cordelIcon.tsx",
@@ -17,7 +17,7 @@
     },
     {
         "etapaIndice": 2,
-        "estaLiberada": true,
+        "estaLiberada": false,
         "tema": "Copa das Corujas",
         "descricao": "É dia de decisão no gramado! A coruja monta o time e organiza o campeonato, mas as tabelas e estatísticas do jogo só fecham com uma boa lógica de programação.",
         "iconName": "futebolIcon.tsx",
@@ -25,7 +25,7 @@
     },
     {
         "etapaIndice": 3,
-        "estaLiberada": true,
+        "estaLiberada": false,
         "tema": "Arraiá do BX",
         "descricao": "Bandeirinhas no alto e fogueira acesa! No arraiá da coruja, quadrilha, comidas típicas e brincadeiras juninas escondem desafios de programação para os calouros resolverem.",
         "iconName": "festaJuninaIcon.tsx",
@@ -33,7 +33,7 @@
     },
     {
         "etapaIndice": 4,
-        "estaLiberada": true,
+        "estaLiberada": false,
         "tema": "Lenda do Boto",
         "descricao": "Reza a lenda que o boto-cor-de-rosa se encantou pelas águas do rio e sumiu com pistas importantes! Na última etapa, folclore amazônico e programação se encontram para fechar o BXCOMP 2026.",
         "iconName": "botoIcon.tsx",

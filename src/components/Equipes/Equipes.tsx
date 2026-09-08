@@ -29,7 +29,7 @@ const Equipes: React.FC<EquipesProps> = ({ equipes }) => {
     return (
         <section className='pb-[7rem] pt-[7rem] bg-creme'>
 
-            <h1 className="text-azulelegante font-eloquent font-black text-[3.2rem] pl-8 sm:pl-20"> equipes </h1>
+            <h1 className="text-azulelegante font-eloquent font-black text-[3.2rem] pl-8 sm:pl-20"> Equipes </h1>
             <p className="p-4 font-roboto text-md text-left text-preto pl-20"> Conheça os competidores deste ano! </p>
 
             {equipes.length === 0 ? (
