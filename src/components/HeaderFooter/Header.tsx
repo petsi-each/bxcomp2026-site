@@ -31,7 +31,7 @@ const Header = () => {
                         <Link
                             key={link.href}
                             href={link.href}
-                            className="relative text-preto text-sm font-subtitulo font-semibold whitespace-nowrap px-4 py-2 rounded-full hover:bg-laranja hover:text-verdescuro2 transition-colors duration-200 ease-out"
+                            className="relative text-preto text-base font-subtitulo font-semibold whitespace-nowrap px-4 py-2 rounded-full hover:bg-laranja hover:text-verdescuro2 transition-colors duration-200 ease-out"
                         >
                             {link.label}
                             <span
@@ -48,7 +48,7 @@ const Header = () => {
                     className="lg:hidden mr-1 text-preto z-[300] transition-transform duration-150 active:scale-90"
                     onClick={() => setIsOpen(!isOpen)}
                 >
-                    <HiMenu className="w-[30px] h-[30px]" />
+                    <HiMenu className="w-[64px] h-[64px]" />
                 </button>
             </header>
 
@@ -61,7 +61,7 @@ const Header = () => {
             {/* Mobile menu */}
             <div className={`lg:hidden bg-creme fixed top-0 right-0 flex flex-col w-[78%] max-w-[340px] h-[100vh] text-preto z-[300] transition-transform duration-300 ease-out ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
                 <button aria-label="Fechar menu" className="flex justify-end p-4 transition-transform duration-150 active:scale-90" onClick={() => setIsOpen(false)}>
-                    <HiX className="w-[30px] h-[30px]" />
+                    <HiX className="w-[64px] h-[64px]" />
                 </button>
                 {navLinks.map((link, idx) => (
                     <Link
