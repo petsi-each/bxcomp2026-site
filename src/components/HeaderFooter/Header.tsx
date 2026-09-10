@@ -31,9 +31,12 @@ const Header = () => {
                         <Link
                             key={link.href}
                             href={link.href}
-                            className={`text-preto text-sm font-subtitulo font-semibold whitespace-nowrap px-4 py-2 rounded-full hover:bg-laranja hover:text-verdescuro2 transition-colors ${pathname === link.href ? "underline decoration-2 decoration-laranja underline-offset-4" : ""}`}
+                            className="relative text-preto text-sm font-subtitulo font-semibold whitespace-nowrap px-4 py-2 rounded-full hover:bg-laranja hover:text-verdescuro2 transition-colors duration-200 ease-out"
                         >
                             {link.label}
+                            <span
+                                className={`absolute left-4 right-4 -bottom-0.5 h-[3px] bg-laranja rounded-full origin-left transition-transform duration-[350ms] ease-out ${pathname === link.href ? "scale-x-100" : "scale-x-0"}`}
+                            />
                         </Link>
                     ))}
                 </nav>
@@ -42,7 +45,7 @@ const Header = () => {
                 <button
                     aria-label="Abrir menu"
                     aria-expanded={isOpen}
-                    className="lg:hidden mr-1 text-preto z-[300]"
+                    className="lg:hidden mr-1 text-preto z-[300] transition-transform duration-150 active:scale-90"
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     <HiMenu className="w-[30px] h-[30px]" />
@@ -51,23 +54,27 @@ const Header = () => {
 
             {/* Mobile overlay */}
             <div
-                className={`lg:hidden fixed inset-0 bg-black/50 z-[250] transition-opacity duration-300 ${isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
+                className={`lg:hidden fixed inset-0 bg-black/50 z-[250] transition-opacity duration-300 ease-out ${isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
                 onClick={() => setIsOpen(false)}
             />
 
             {/* Mobile menu */}
-            <div className={`lg:hidden bg-creme fixed top-0 right-0 flex flex-col w-[78%] max-w-[340px] h-[100vh] text-preto z-[300] transition-transform duration-300 ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
-                <button aria-label="Fechar menu" className="flex justify-end p-4" onClick={() => setIsOpen(false)}>
+            <div className={`lg:hidden bg-creme fixed top-0 right-0 flex flex-col w-[78%] max-w-[340px] h-[100vh] text-preto z-[300] transition-transform duration-300 ease-out ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
+                <button aria-label="Fechar menu" className="flex justify-end p-4 transition-transform duration-150 active:scale-90" onClick={() => setIsOpen(false)}>
                     <HiX className="w-[30px] h-[30px]" />
                 </button>
                 {navLinks.map((link, idx) => (
                     <Link
                         key={link.href}
-                        className={`p-5 font-subtitulo font-semibold ${idx !== 0 ? "border-t-2 border-preto/10" : ""} ${pathname === link.href ? "underline decoration-2 decoration-laranja underline-offset-4" : ""}`}
+                        className={`relative p-5 font-subtitulo font-semibold transition-all duration-300 ease-out ${idx !== 0 ? "border-t-2 border-preto/10" : ""} ${isOpen ? "opacity-100 translate-x-0" : "opacity-0 translate-x-4"}`}
+                        style={{ transitionDelay: isOpen ? `${idx * 60}ms` : "0ms" }}
                         href={link.href}
                         onClick={() => setIsOpen(false)}
                     >
                         {link.label}
+                        <span
+                            className={`absolute left-5 right-5 bottom-2 h-[3px] bg-laranja rounded-full origin-left transition-transform duration-[350ms] ease-out ${pathname === link.href ? "scale-x-100" : "scale-x-0"}`}
+                        />
                     </Link>
                 ))}
                 <img src="/images/logo-bx.png" alt="Logo BXCOMP" className="w-[140px] m-auto mt-auto mb-8" />

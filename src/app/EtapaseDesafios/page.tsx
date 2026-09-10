@@ -5,15 +5,12 @@ import BarraBotoes from "@/components/Etapas/BarraBotoes";
 import etapasData from '@/data/etapas.json';
 import { useState } from "react";
 import Footer from "@/components/HeaderFooter/Footer";
-import Header from "@/components/HeaderFooter/Header";
 
 const EtapasEDesafios = () => {
     const [idSelecionado, setIdSelecionado] = useState(0)
 
     return (
         <div className="page">
-            <Header></Header>
-
             <div id="EtapasPage" className="flex w-full flex-col justify-center gap-4 px-7 mt-20 md:px-20 pb-24 pt-14 bg-transparent">
                 <h1 className="text-5xl py-9 font-display font-black gradiente-titulo">
                     Etapas & Desafios
