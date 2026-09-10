@@ -20,9 +20,9 @@ const Header = () => {
     return (
         <>
             {/* Escala de z-index: 200 = header, 250 = overlay escuro do menu mobile, 300 = botão de menu e painel mobile */}
-            <header className="z-[200] flex fixed top-0 w-screen justify-between items-center bg-verdeclaro/95 backdrop-blur border-b border-bege/10 py-[6px] pl-6 pr-8">
+            <header className="z-[200] flex fixed top-0 w-screen justify-between items-center bg-verdeclaro/95 backdrop-blur border-b border-bege/10 py-[2px] pl-6 pr-8">
                 <Link href="/">
-                    <img className="w-[120px] md:w-[140px]" src="/images/logo-bx.png" alt="Logo BXCOMP" />
+                    <img className="w-[130px] md:w-[150px]" src="/images/logo-bx.png" alt="Logo BXCOMP" />
                 </Link>
 
                 {/* Desktop */}
