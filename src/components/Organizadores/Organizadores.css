@@ -2,15 +2,26 @@ body {
   background-color: #23571F;
 }
 
-.titulobrilhante {
-  text-shadow: 0 4px 20px rgba(255, 175, 48, 0.3);
+.titulo h2 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  line-height: normal;
-  background: linear-gradient(180deg, var(--ouro, #FFAF30) 56.25%, var(--azulelegante, #3060B2) 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 1.25;
+
+  color: #FFFCE3;
+
+  text-shadow: 0px 4px 20px rgba(255, 175, 48, 0.2);
+}
+
+.titulo p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(15px, 2.2vw, 21px);
+  line-height: 1.65;
+
+  color: #DDCBA1;
 }
 
 .titulo {

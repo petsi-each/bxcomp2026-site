@@ -48,7 +48,7 @@ export default function Sobre() {
                     </div>
 
                     <div className="texto">
-                        <h2>Objetivo</h2>
+                        <h2>Por que participar?</h2>
                         <p>
                             Mais do que uma prova de conhecimento, o BXCOMP é a porta de entrada dos calouros no
                             mundo da programação competitiva — em equipe, aprendendo na prática ao longo do
@@ -70,7 +70,7 @@ export default function Sobre() {
                     </div>
 
                     <div className="texto">
-                        <h2>Organização</h2>
+                        <h2>Quem está por trás?</h2>
                         <p>
                             O campeonato acontece nos laboratórios da EACH, organizado pelo PET-SI (Programa de
                             Educação Tutorial — Sistemas de Informação). <br /><br />
@@ -86,7 +86,7 @@ export default function Sobre() {
 
             <section className="outras-competicoes outras-competicoes--compact">
                 <div className="conteudo-compacto">
-                    <h2>Outras competições</h2>
+                    <h2>Depois do BXCOMP</h2>
                     <ul>
                         <li>
                             <strong>Olimpíada Brasileira de Informática (OBI)</strong>: promovida pela Sociedade

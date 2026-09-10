@@ -2,6 +2,10 @@ body{
     background-color: #23571F;
 }
 
+:root{
+    --section-gap: clamp(56px, 9vw, 110px);
+}
+
 .o-que-e-o-bxcomp{
     width: 85%;
     margin: auto;
@@ -10,7 +14,6 @@ body{
     justify-content: center;
     flex-direction: column;
 
-    margin-bottom: 8%;
     padding-top: 6rem;
 }
 
@@ -44,8 +47,8 @@ body{
     font-style: normal;
     font-weight: 400;
 
-    font-size: 1.35rem;
-    line-height: 1.6;
+    font-size: clamp(15px, 2.2vw, 21px);
+    line-height: 1.65;
 
     color: #DDCBA1;
 }
@@ -66,11 +69,21 @@ body{
     align-items: stretch;
 }
 
+.objetivo{
+    margin-top: var(--section-gap);
+}
+
 .imagem{
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.imagem svg{
+    width: 100%;
+    max-width: 260px;
+    height: auto;
 }
 
 .texto{
@@ -86,6 +99,7 @@ body{
     font-weight: 800;
     font-size: 2.5rem;
     line-height: 1.25;
+    margin-bottom: 1rem;
 
     color: #FFFCE3;
 
@@ -114,9 +128,12 @@ body{
 
 /*-------------------------------------------------------------------------------------------------------------------------*/
 
+.organizacao{
+    margin-top: var(--section-gap);
+}
+
 .organizacao .conteudo{
     flex-direction: row-reverse;
-    margin-top: 20px;
 }
 
 @media(max-width: 768px){
@@ -135,8 +152,7 @@ body{
 }
 
 .outras-competicoes--compact{
-    margin-top: 40px;
-    padding-bottom: 20px;
+    margin-top: var(--section-gap);
 }
 
 .outras-competicoes--compact .conteudo-compacto{
@@ -151,7 +167,7 @@ body{
     font-weight: 800;
     font-size: 1.6rem;
     line-height: 1.25;
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem;
 
     color: #FFFCE3;
 
@@ -186,7 +202,8 @@ body{
 .cta-final{
     width: 85%;
     margin: auto;
-    padding: 40px 0 60px;
+    margin-top: var(--section-gap);
+    padding: 0 0 60px;
 
     display: flex;
     justify-content: center;
