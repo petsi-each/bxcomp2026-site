@@ -22,7 +22,7 @@ const Header = () => {
             {/* Escala de z-index: 200 = header, 250 = overlay escuro do menu mobile, 300 = botão de menu e painel mobile */}
             <header className="z-[200] flex fixed top-0 w-screen justify-between items-center bg-verdeclaro/95 backdrop-blur border-b border-bege/10 py-[2px] pl-6 pr-8">
                 <Link href="/">
-                    <img className="w-[130px] md:w-[150px]" src="/images/logo-bx.png" alt="Logo BXCOMP" />
+                    <img className="w-[160px] md:w-[190px] h-[58px] md:h-[68px] object-cover object-center" src="/images/logo-bx.png" alt="Logo BXCOMP" />
                 </Link>
 
                 {/* Desktop */}
@@ -48,7 +48,7 @@ const Header = () => {
                     className="lg:hidden mr-1 text-preto z-[300] transition-transform duration-150 active:scale-90"
                     onClick={() => setIsOpen(!isOpen)}
                 >
-                    <HiMenu className="w-[64px] h-[64px]" />
+                    <HiMenu className="w-[36px] h-[36px]" />
                 </button>
             </header>
 
@@ -61,7 +61,7 @@ const Header = () => {
             {/* Mobile menu */}
             <div className={`lg:hidden bg-creme fixed top-0 right-0 flex flex-col w-[78%] max-w-[340px] h-[100vh] text-preto z-[300] transition-transform duration-300 ease-out ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
                 <button aria-label="Fechar menu" className="flex justify-end p-4 transition-transform duration-150 active:scale-90" onClick={() => setIsOpen(false)}>
-                    <HiX className="w-[64px] h-[64px]" />
+                    <HiX className="w-[36px] h-[36px]" />
                 </button>
                 {navLinks.map((link, idx) => (
                     <Link
