@@ -6,10 +6,10 @@ import { useState } from 'react';
 import { HiMenu, HiX } from "react-icons/hi";
 
 const navLinks = [
+    { href: "/Sobre", label: "O que é o BXCOMP?" },
     { href: "/Regulamento", label: "Regulamento" },
     { href: "/EtapaseDesafios", label: "Etapas & Desafios" },
     { href: "/RankingeGrupos", label: "Ranking & Grupos" },
-    { href: "/Sobre", label: "O que é o BXCOMP?" },
     { href: "/AnosAnteriores", label: "Anos anteriores" },
 ];
 
