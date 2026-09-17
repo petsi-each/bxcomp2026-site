@@ -22,9 +22,9 @@ const MainTitle = () => {
         {/* ================= BLOCO PRINCIPAL (REDUZIDO E DESLOCADO) ================= */}
         <div className="grid md:grid-cols-[1.1fr_0.9fr] gap-8 items-center w-full mt-2 scale-[0.95] md:scale-100">
 
-          <h1 className="font-brasileira font-black text-[2.6rem] md:text-[3.8rem] leading-[1.05] mb-6">
+          {/* <h1 className="font-brasileira font-black text-[2.6rem] md:text-[3.8rem] leading-[1.05] mb-6">
             O que é o <span className="gradiente-destaque" data-text="BXCOMP">BXCOMP</span>?
-          </h1>
+          </h1> */}
           {/* Texto Envolvido por Quadrado Verde */}
           <div className="bg-verdescuro2/80 border-2 border-[#23571F] p-6 md:p-8 rounded-2xl shadow-xl backdrop-blur-sm text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start gap-2.5 mb-4">

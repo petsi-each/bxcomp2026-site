@@ -22,15 +22,15 @@ const Equipes: React.FC<EquipesProps> = ({ equipes }) => {
     const scrolltodisplayer = () => {
         const displayer = document.getElementById('display');
         if (displayer && window.innerWidth <= 1100) {
-            displayer.scrollIntoView({ behavior: 'smooth', block: 'center', });
+            displayer.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
     }
 
     return (
-        <section className='pb-[7rem] pt-[7rem] bg-creme'>
+        <section className='pb-[5rem] pt-[5rem] bg-creme'>
 
             <h1 className="text-azulescuro font-eloquent font-extrabold text-[3.2rem] pl-8 sm:pl-20"> Equipes </h1>
-            <p className="p-4 font-roboto text-md text-left text-preto pl-20"> Conheça os competidores deste ano! </p>
+            <p className="p-4 font-roboto text-md text-left text-preto pl-8 sm:pl-20 mb-4"> Conheça os competidores deste ano! </p>
 
             {equipes.length === 0 ? (
                 <div className="mx-8 sm:mx-20 mt-6 px-8 py-14 text-center border border-dashed border-azulelegante/40 rounded-card">
@@ -40,23 +40,23 @@ const Equipes: React.FC<EquipesProps> = ({ equipes }) => {
                     </p>
                 </div>
             ) : (
-                <section className="flex justify-center [@media(max-width:1100px)]:flex-col">
+                <section className="flex px-8 sm:px-20 [@media(max-width:1100px)]:flex-col gap-8">
 
-                    <section className="[@media(max-width:1100px)]:w-full w-[50vw] my-4 md:my-2 py-2 px-[15px] flex flex-wrap items-center justify-center content-start">
-                        <section className="gap-8 sm:grid-flow-col flex sm:h-fit flex-wrap items-center justify-center">
+                    {/* Lado Esquerdo: Grid de Botões alinhado com o título */}
+                    <section className="[@media(max-width:1100px)]:w-full flex-1 my-2 py-2 flex flex-col justify-start items-start">
+                        <section className="gap-6 flex flex-wrap items-center justify-start">
                             {equipes.map((equipe, idx) => {
                                 return <BotaoEquipe
                                     key={idx}
                                     equipe={equipe}
                                     selecionado={idSelecionado == idx}
                                     onClick={() => { setIdSelecionado(idx); scrolltodisplayer(); }} />
-                            })
-                            }
-
+                            })}
                         </section>
                     </section>
 
-                    <section id="display" className="overflow-hidden [@media(max-width:1100px)]:mt-[60px] [@media(max-width:1100px)]:w-full w-[50vw] px-4 flex flex-col items-center content-center justify-center">
+                    {/* Lado Direito: Card de detalhes da equipe */}
+                    <section id="display" className="overflow-hidden [@media(max-width:1100px)]:mt-[40px] [@media(max-width:1100px)]:w-full w-[380px] flex flex-col items-center justify-start flex-shrink-0">
 
                         <div className="flex flex-col items-center justify-center rounded-card p-10 [background:linear-gradient(155deg,var(--azulelegante),var(--azulescuro))] shadow-soft w-full max-w-[380px]">
                             <div className="w-32 h-32 rounded-full bg-white flex items-center justify-center p-5 shadow-soft mb-5">
