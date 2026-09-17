@@ -8,7 +8,6 @@ const Oqueeobxcomp = () => {
         <div className="page pt-14">
             <Header></Header>
             <Sobre></Sobre>
-            <Organizadores></Organizadores>
             <Footer />
         </div>
     );

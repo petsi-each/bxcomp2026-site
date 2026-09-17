@@ -2,6 +2,10 @@ body{
     background-color: #23571F;
 }
 
+:root{
+    --section-gap: clamp(56px, 9vw, 110px);
+}
+
 .o-que-e-o-bxcomp{
     width: 85%;
     margin: auto;
@@ -10,7 +14,6 @@ body{
     justify-content: center;
     flex-direction: column;
 
-    margin-bottom: 8%;
     padding-top: 6rem;
 }
 
@@ -36,7 +39,7 @@ body{
 
     color: #FFAF30;
 
-    text-shadow: 0px 4px 20px rgba(255, 175, 48, 0.3);
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .o-que-e-o-bxcomp p{
@@ -44,54 +47,10 @@ body{
     font-style: normal;
     font-weight: 400;
 
-    font-size: 1.35rem;
-    line-height: 1.6;
+    font-size: clamp(15px, 2.2vw, 21px);
+    line-height: 1.65;
 
     color: #DDCBA1;
-}
-
-.o-que-e-o-bxcomp button {
-    margin-top: 7%;
-    align-self: center;
-    width: 240px;
-    height: 65px;
-    padding: 15px;
-
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-
-    gap: 0.6em;
-
-    background: #FFAF30;
-
-    border-radius: 999px;
-
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.o-que-e-o-bxcomp button span {
-    font-family: 'Space Grotesk', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: clamp(16px, 3vw, 16px);
-    line-height: 1.2;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #17240F;
-}
-
-.o-que-e-o-bxcomp button svg path {
-    fill: #17240F;
-}
-
-.o-que-e-o-bxcomp button:hover {
-    box-shadow: 0 4px 16px rgba(255, 175, 48, 0.35);
-    transform: translateY(-3px);
 }
 
 
@@ -110,11 +69,21 @@ body{
     align-items: stretch;
 }
 
+.objetivo{
+    margin-top: var(--section-gap);
+}
+
 .imagem{
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.imagem svg{
+    width: 100%;
+    max-width: 260px;
+    height: auto;
 }
 
 .texto{
@@ -130,10 +99,11 @@ body{
     font-weight: 800;
     font-size: 2.5rem;
     line-height: 1.25;
+    margin-bottom: 1rem;
 
     color: #FFFCE3;
 
-    text-shadow: 0px 4px 20px rgba(255, 175, 48, 0.2);
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .objetivo p,
@@ -158,9 +128,12 @@ body{
 
 /*-------------------------------------------------------------------------------------------------------------------------*/
 
+.organizacao{
+    margin-top: var(--section-gap);
+}
+
 .organizacao .conteudo{
     flex-direction: row-reverse;
-    margin-top: 20px;
 }
 
 @media(max-width: 768px){
@@ -173,18 +146,107 @@ body{
 
 /*-------------------------------------------------------------------------------------------------------------------------*/
 
-.outras-competicoes .conteudo{
-    margin-top: 20px;
-}
-
 .outras-competicoes a{
     color: #FFAF30;
     font-weight: 600;
 }
 
+.outras-competicoes--compact{
+    margin-top: var(--section-gap);
+}
+
+.outras-competicoes--compact .conteudo-compacto{
+    width: 85%;
+    max-width: 760px;
+    margin: auto;
+}
+
+.outras-competicoes--compact h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    margin-bottom: 1rem;
+
+    color: #FFFCE3;
+
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.outras-competicoes--compact ul{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(14px, 1.8vw, 17px);
+    line-height: 1.6;
+
+    color: #DDCBA1;
+
+    padding-left: 1.1rem;
+}
+
 @media(max-width: 768px){
-    .outras-competicoes .conteudo{
-        flex-direction: column;
+    .outras-competicoes--compact .conteudo-compacto{
         text-align: center;
     }
+
+    .outras-competicoes--compact ul{
+        padding-left: 0;
+        list-style-position: inside;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+.cta-final{
+    width: 85%;
+    margin: auto;
+    margin-top: var(--section-gap);
+    padding: 0 0 60px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.cta-final button{
+    width: 240px;
+    height: 65px;
+    padding: 15px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 0.6em;
+
+    background: #FFAF30;
+
+    border-radius: 999px;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cta-final button span {
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(16px, 3vw, 16px);
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #17240F;
+}
+
+.cta-final button svg path {
+    fill: #17240F;
+}
+
+.cta-final button:hover {
+    box-shadow: 0 4px 16px rgba(255, 175, 48, 0.35);
+    transform: translateY(-3px);
 }
