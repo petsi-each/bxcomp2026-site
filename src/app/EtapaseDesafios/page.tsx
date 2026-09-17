@@ -5,7 +5,6 @@ import BarraBotoes from "@/components/Etapas/BarraBotoes";
 import etapasData from '@/data/etapas.json';
 import { useState } from "react";
 import Footer from "@/components/HeaderFooter/Footer";
-import Header from "@/components/HeaderFooter/Header";
 
 const EtapasEDesafios = () => {
     const [idSelecionado, setIdSelecionado] = useState(0)

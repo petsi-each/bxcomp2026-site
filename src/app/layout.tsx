@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Header from "@/components/HeaderFooter/Header";
 import { Poppins, Londrina_Solid } from "next/font/google";
 import "./globals.css";
 
