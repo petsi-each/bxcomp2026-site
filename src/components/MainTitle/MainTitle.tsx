@@ -8,7 +8,7 @@ const MainTitle = () => {
 
         {/* ================= LOGO PRINCIPAL (GRANDE E EM DESTAQUE) ================= */}
         <div className="w-full flex items-center justify-center my-16 min-h-[260px] md:min-h-[340px]">
-          <div className="relative w-full max-w-[650px] h-[260px] md:h-[340px] transition-transform duration-300 hover:scale-[1.02]">
+          <div className="shadow-soft rounded-card relative w-full max-w-[650px] h-[260px] md:h-[340px] transition-transform duration-300 hover:scale-[1.02] bg-verdeclaro">
             <Image
               src="images/logo-bx.png" // Substitua pelo caminho da sua logo principal
               alt="Logo BXCOMP 2026"
@@ -22,6 +22,9 @@ const MainTitle = () => {
         {/* ================= BLOCO PRINCIPAL (REDUZIDO E DESLOCADO) ================= */}
         <div className="grid md:grid-cols-[1.1fr_0.9fr] gap-8 items-center w-full mt-2 scale-[0.95] md:scale-100">
 
+          {/* <h1 className="font-brasileira font-black text-[2.6rem] md:text-[3.8rem] leading-[1.05] mb-6">
+            O que é o <span className="gradiente-destaque" data-text="BXCOMP">BXCOMP</span>?
+          </h1> */}
           {/* Texto Envolvido por Quadrado Verde */}
           <div className="bg-verdescuro2/80 border-2 border-[#23571F] p-6 md:p-8 rounded-2xl shadow-xl backdrop-blur-sm text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start gap-2.5 mb-4">
@@ -34,7 +37,7 @@ const MainTitle = () => {
             </div>
 
             <h1 className="font-display font-black text-[2.2rem] md:text-[3.2rem] leading-[1.05] mb-4">
-              O que é o <span className="gradiente-titulo">BXCOMP</span>?
+              O que é o <span className="gradiente-fixo">BXCOMP</span>?
             </h1>
 
             <p className="text-bege leading-relaxed text-base md:text-lg max-w-[46ch] mx-auto md:mx-0 mb-6 font-roboto">
