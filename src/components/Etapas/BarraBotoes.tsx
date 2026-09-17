@@ -13,7 +13,7 @@ interface BarraProps {
 const BarraBotoes: React.FC<BarraProps> = ({ etapas, idSelecionado, setIdSelecionado }) => {
 
     return (
-        <section className="flex w-full flex-row justify-between">
+        <section className="flex w-full flex-row justify-between mt-[60px]">
             {
                 etapas.map((etapa, idx) => {
                     return (

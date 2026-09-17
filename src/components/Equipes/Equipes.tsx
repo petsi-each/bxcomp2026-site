@@ -29,7 +29,7 @@ const Equipes: React.FC<EquipesProps> = ({ equipes }) => {
     return (
         <section className='pb-[7rem] pt-[7rem] bg-creme'>
 
-            <h1 className="text-azulelegante font-eloquent font-black text-[3.2rem] pl-8 sm:pl-20"> equipes </h1>
+            <h1 className="text-azulescuro font-eloquent font-extrabold text-[3.2rem] pl-8 sm:pl-20"> Equipes </h1>
             <p className="p-4 font-roboto text-md text-left text-preto pl-20"> Conheça os competidores deste ano! </p>
 
             {equipes.length === 0 ? (
@@ -58,7 +58,7 @@ const Equipes: React.FC<EquipesProps> = ({ equipes }) => {
 
                     <section id="display" className="overflow-hidden [@media(max-width:1100px)]:mt-[60px] [@media(max-width:1100px)]:w-full w-[50vw] px-4 flex flex-col items-center content-center justify-center">
 
-                        <div className="flex flex-col items-center justify-center rounded-card p-10 [background:linear-gradient(155deg,var(--azulelegante),var(--azulciano))] shadow-soft w-full max-w-[380px]">
+                        <div className="flex flex-col items-center justify-center rounded-card p-10 [background:linear-gradient(155deg,var(--azulelegante),var(--azulescuro))] shadow-soft w-full max-w-[380px]">
                             <div className="w-32 h-32 rounded-full bg-white flex items-center justify-center p-5 shadow-soft mb-5">
                                 <Image className="w-full h-full object-contain" alt="" width={110} height={110} src={equipes[idSelecionado].iconPath} unoptimized />
                             </div>

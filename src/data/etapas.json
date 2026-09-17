@@ -5,7 +5,43 @@
         "tema": "Roda de Carnaval",
         "descricao": "A coruja do BXCOMP perdeu a hora do bloco e precisa da sua ajuda para organizar a folia! Nesta primeira etapa, o ritmo do pandeiro guia os primeiros passos em lógica e programação.",
         "iconName": "pandeiroIcon.tsx",
-        "desafios": []
+        "desafios": [
+            {
+                "desafio": "Uga Buga! - 4 pontos",
+                "enunciado": "etapas/0/uga-buga/",
+                "resolucao": "etapas/0/uga-buga/sol.c",
+                "entrada": "etapas/0/uga-buga/1.in",
+                "saida": "etapas/0/uga-buga/1.ans"
+            },
+            {
+                "desafio": "Pedra, Papiro, Tesoura - 3 pontos",
+                "enunciado": "etapas/0/pedra,papiro,tesoura/Pedra, Papiro, Tesoura.pdf",
+                "resolucao": "etapas/0/pedra,papiro,tesoura/sol.c",
+                "entrada": "etapas/0/pedra,papiro,tesoura/1.in",
+                "saida": "etapas/0/pedra,papiro,tesoura/1.ans"
+            },
+            {
+                "desafio": "FOGO - 4 pontos",
+                "enunciado": "etapas/0/fogo/FOGO.pdf",
+                "resolucao": "etapas/0/fogo/sol.c",
+                "entrada": "etapas/0/fogo/1.in",
+                "saida": "etapas/0/fogo/1.ans"
+            },
+            {
+                "desafio": "Zona de Olfato - 2 pontos",
+                "enunciado": "etapas/0/zona-de-Olfato/zonadeolfato.pdf",
+                "resolucao": "etapas/0/zona-de-Olfato/sol.c",
+                "entrada": "etapas/0/zona-de-Olfato/1.in",
+                "saida": "etapas/0/zona-de-Olfato/1.ans"
+            },
+            {
+                "desafio": "Era tudo…Bagre? - 6 pontos",
+                "enunciado": "etapas/0/era-tudo-Bagre/EraTudoBagre.pdf",
+                "resolucao": "etapas/0/era-tudo-Bagre/sol.c",
+                "entrada": "etapas/0/era-tudo-Bagre/1.in",
+                "saida": "etapas/0/era-tudo-Bagre/1.ans"
+            }  
+        ]
     },
     {
         "etapaIndice": 1,
@@ -13,7 +49,43 @@
         "tema": "Cordel & Repente",
         "descricao": "Entre folhetos de cordel e rimas de repente, a coruja se enrolou nos versos! Ajude a decifrar mensagens e organizar as estrofes usando o que você aprendeu de programação.",
         "iconName": "cordelIcon.tsx",
-        "desafios": []
+        "desafios": [
+            {
+                "desafio": "Uga Buga! - 4 pontos",
+                "enunciado": "etapas/0/uga-buga/",
+                "resolucao": "etapas/0/uga-buga/sol.c",
+                "entrada": "etapas/0/uga-buga/1.in",
+                "saida": "etapas/0/uga-buga/1.ans"
+            },
+            {
+                "desafio": "Pedra, Papiro, Tesoura - 3 pontos",
+                "enunciado": "etapas/0/pedra,papiro,tesoura/Pedra, Papiro, Tesoura.pdf",
+                "resolucao": "etapas/0/pedra,papiro,tesoura/sol.c",
+                "entrada": "etapas/0/pedra,papiro,tesoura/1.in",
+                "saida": "etapas/0/pedra,papiro,tesoura/1.ans"
+            },
+            {
+                "desafio": "FOGO - 4 pontos",
+                "enunciado": "etapas/0/fogo/FOGO.pdf",
+                "resolucao": "etapas/0/fogo/sol.c",
+                "entrada": "etapas/0/fogo/1.in",
+                "saida": "etapas/0/fogo/1.ans"
+            },
+            {
+                "desafio": "Zona de Olfato - 2 pontos",
+                "enunciado": "etapas/0/zona-de-Olfato/zonadeolfato.pdf",
+                "resolucao": "etapas/0/zona-de-Olfato/sol.c",
+                "entrada": "etapas/0/zona-de-Olfato/1.in",
+                "saida": "etapas/0/zona-de-Olfato/1.ans"
+            },
+            {
+                "desafio": "Era tudo…Bagre? - 6 pontos",
+                "enunciado": "etapas/0/era-tudo-Bagre/EraTudoBagre.pdf",
+                "resolucao": "etapas/0/era-tudo-Bagre/sol.c",
+                "entrada": "etapas/0/era-tudo-Bagre/1.in",
+                "saida": "etapas/0/era-tudo-Bagre/1.ans"
+            }  
+        ]
     },
     {
         "etapaIndice": 2,
@@ -21,7 +93,43 @@
         "tema": "Copa das Corujas",
         "descricao": "É dia de decisão no gramado! A coruja monta o time e organiza o campeonato, mas as tabelas e estatísticas do jogo só fecham com uma boa lógica de programação.",
         "iconName": "futebolIcon.tsx",
-        "desafios": []
+        "desafios": [
+            {
+                "desafio": "Uga Buga! - 4 pontos",
+                "enunciado": "etapas/0/uga-buga/",
+                "resolucao": "etapas/0/uga-buga/sol.c",
+                "entrada": "etapas/0/uga-buga/1.in",
+                "saida": "etapas/0/uga-buga/1.ans"
+            },
+            {
+                "desafio": "Pedra, Papiro, Tesoura - 3 pontos",
+                "enunciado": "etapas/0/pedra,papiro,tesoura/Pedra, Papiro, Tesoura.pdf",
+                "resolucao": "etapas/0/pedra,papiro,tesoura/sol.c",
+                "entrada": "etapas/0/pedra,papiro,tesoura/1.in",
+                "saida": "etapas/0/pedra,papiro,tesoura/1.ans"
+            },
+            {
+                "desafio": "FOGO - 4 pontos",
+                "enunciado": "etapas/0/fogo/FOGO.pdf",
+                "resolucao": "etapas/0/fogo/sol.c",
+                "entrada": "etapas/0/fogo/1.in",
+                "saida": "etapas/0/fogo/1.ans"
+            },
+            {
+                "desafio": "Zona de Olfato - 2 pontos",
+                "enunciado": "etapas/0/zona-de-Olfato/zonadeolfato.pdf",
+                "resolucao": "etapas/0/zona-de-Olfato/sol.c",
+                "entrada": "etapas/0/zona-de-Olfato/1.in",
+                "saida": "etapas/0/zona-de-Olfato/1.ans"
+            },
+            {
+                "desafio": "Era tudo…Bagre? - 6 pontos",
+                "enunciado": "etapas/0/era-tudo-Bagre/EraTudoBagre.pdf",
+                "resolucao": "etapas/0/era-tudo-Bagre/sol.c",
+                "entrada": "etapas/0/era-tudo-Bagre/1.in",
+                "saida": "etapas/0/era-tudo-Bagre/1.ans"
+            }  
+        ]
     },
     {
         "etapaIndice": 3,
@@ -29,7 +137,43 @@
         "tema": "Arraiá do BX",
         "descricao": "Bandeirinhas no alto e fogueira acesa! No arraiá da coruja, quadrilha, comidas típicas e brincadeiras juninas escondem desafios de programação para os calouros resolverem.",
         "iconName": "festaJuninaIcon.tsx",
-        "desafios": []
+        "desafios": [
+            {
+                "desafio": "Uga Buga! - 4 pontos",
+                "enunciado": "etapas/0/uga-buga/",
+                "resolucao": "etapas/0/uga-buga/sol.c",
+                "entrada": "etapas/0/uga-buga/1.in",
+                "saida": "etapas/0/uga-buga/1.ans"
+            },
+            {
+                "desafio": "Pedra, Papiro, Tesoura - 3 pontos",
+                "enunciado": "etapas/0/pedra,papiro,tesoura/Pedra, Papiro, Tesoura.pdf",
+                "resolucao": "etapas/0/pedra,papiro,tesoura/sol.c",
+                "entrada": "etapas/0/pedra,papiro,tesoura/1.in",
+                "saida": "etapas/0/pedra,papiro,tesoura/1.ans"
+            },
+            {
+                "desafio": "FOGO - 4 pontos",
+                "enunciado": "etapas/0/fogo/FOGO.pdf",
+                "resolucao": "etapas/0/fogo/sol.c",
+                "entrada": "etapas/0/fogo/1.in",
+                "saida": "etapas/0/fogo/1.ans"
+            },
+            {
+                "desafio": "Zona de Olfato - 2 pontos",
+                "enunciado": "etapas/0/zona-de-Olfato/zonadeolfato.pdf",
+                "resolucao": "etapas/0/zona-de-Olfato/sol.c",
+                "entrada": "etapas/0/zona-de-Olfato/1.in",
+                "saida": "etapas/0/zona-de-Olfato/1.ans"
+            },
+            {
+                "desafio": "Era tudo…Bagre? - 6 pontos",
+                "enunciado": "etapas/0/era-tudo-Bagre/EraTudoBagre.pdf",
+                "resolucao": "etapas/0/era-tudo-Bagre/sol.c",
+                "entrada": "etapas/0/era-tudo-Bagre/1.in",
+                "saida": "etapas/0/era-tudo-Bagre/1.ans"
+            }  
+        ]
     },
     {
         "etapaIndice": 4,
@@ -37,6 +181,42 @@
         "tema": "Lenda do Boto",
         "descricao": "Reza a lenda que o boto-cor-de-rosa se encantou pelas águas do rio e sumiu com pistas importantes! Na última etapa, folclore amazônico e programação se encontram para fechar o BXCOMP 2026.",
         "iconName": "botoIcon.tsx",
-        "desafios": []
+        "desafios": [
+            {
+                "desafio": "Uga Buga! - 4 pontos",
+                "enunciado": "etapas/0/uga-buga/",
+                "resolucao": "etapas/0/uga-buga/sol.c",
+                "entrada": "etapas/0/uga-buga/1.in",
+                "saida": "etapas/0/uga-buga/1.ans"
+            },
+            {
+                "desafio": "Pedra, Papiro, Tesoura - 3 pontos",
+                "enunciado": "etapas/0/pedra,papiro,tesoura/Pedra, Papiro, Tesoura.pdf",
+                "resolucao": "etapas/0/pedra,papiro,tesoura/sol.c",
+                "entrada": "etapas/0/pedra,papiro,tesoura/1.in",
+                "saida": "etapas/0/pedra,papiro,tesoura/1.ans"
+            },
+            {
+                "desafio": "FOGO - 4 pontos",
+                "enunciado": "etapas/0/fogo/FOGO.pdf",
+                "resolucao": "etapas/0/fogo/sol.c",
+                "entrada": "etapas/0/fogo/1.in",
+                "saida": "etapas/0/fogo/1.ans"
+            },
+            {
+                "desafio": "Zona de Olfato - 2 pontos",
+                "enunciado": "etapas/0/zona-de-Olfato/zonadeolfato.pdf",
+                "resolucao": "etapas/0/zona-de-Olfato/sol.c",
+                "entrada": "etapas/0/zona-de-Olfato/1.in",
+                "saida": "etapas/0/zona-de-Olfato/1.ans"
+            },
+            {
+                "desafio": "Era tudo…Bagre? - 6 pontos",
+                "enunciado": "etapas/0/era-tudo-Bagre/EraTudoBagre.pdf",
+                "resolucao": "etapas/0/era-tudo-Bagre/sol.c",
+                "entrada": "etapas/0/era-tudo-Bagre/1.in",
+                "saida": "etapas/0/era-tudo-Bagre/1.ans"
+            }  
+        ]
     }
 ]

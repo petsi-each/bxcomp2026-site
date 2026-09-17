@@ -2,13 +2,25 @@ import { Etapa } from "@/components/Etapas/EtapasInterfaces";
 
 interface IconProps {
     etapa: Etapa;
+    tema: string;
     selecionado: boolean;
 }
 
-const FutebolIcone: React.FC<IconProps> = () => {
+const FutebolIcon: React.FC<IconProps> = ({ selecionado, tema }) => {
     return (
-        <img src="/iconesEtapas/futebol.png" alt="Futebol" className="w-full h-full" />
+        <div className="flex flex-col items-center justify-end w-full h-full gap-2">
+            <img 
+                src="/iconesEtapas/futebol.png" 
+                alt={tema} 
+                className="max-h-16 w-auto object-contain"
+            />
+            <span className={`hidden min-[500px]:block font-subtitulo text-xs md:text-sm text-center leading-tight transition-colors ${
+                selecionado ? "text-ouro font-semibold" : "text-bege"
+            }`}>
+                {tema}
+            </span>
+        </div>
     );
 };
 
-export default FutebolIcone;
+export default FutebolIcon;

@@ -19,8 +19,8 @@ const EtapasEDesafios = () => {
                     Etapas & Desafios
                 </h1>
 
-                <div className="bg-gradient-to-br from-azulescuro2 to-azulescuro rounded-card p-6 md:p-10 shadow-soft">
-                    <div className="flex flex-row justify-between mb-[30px]">
+                <div className="bg-gradient-to-br from-verdescuro2 to-verdescuro rounded-card p-6 md:p-10 shadow-soft">
+                    <div className="flex flex-row justify-between mb-[10px] min-h-[9rem]">
                         <CabecalhoEtapa
                             etapas={etapasData}
                             idSelecionado={idSelecionado}
@@ -33,7 +33,7 @@ const EtapasEDesafios = () => {
                         setIdSelecionado={setIdSelecionado}
                     />
 
-                    <div className="flex justify-between items-center m-[auto] w-[95%] h-[2px] bg-ouro mt-6">
+                    <div className="flex justify-between items-center m-[auto] w-[90%] h-[2px] bg-ouro mt-10">
                         <div className="w-[14px] h-[14px] rounded-full bg-ouro"></div>
                         <div className="w-[14px] h-[14px] rounded-full bg-ouro"></div>
                         <div className="w-[14px] h-[14px] rounded-full bg-ouro"></div>

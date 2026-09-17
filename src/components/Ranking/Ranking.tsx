@@ -29,13 +29,13 @@ interface CoroaProps {
 const Coroa: React.FC<CoroaProps> = ({ scorePosition }) => {
     if (scorePosition < 0 || scorePosition > 2) return null;
 
-    const cores = ["var(--ouro)", "var(--azulciano)", "var(--marromsuave)"];
+    const cores = ["var(--ouro)", "var(--azulciano)", "var(--azulsuave)"];
     const cor = cores[scorePosition];
 
     return (
         <svg viewBox="0 0 60 60" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8 34 L14 12 L22 26 L30 8 L38 26 L46 12 L52 34 Z" fill={cor} stroke="var(--azulescuro2)" strokeWidth="1.5" strokeLinejoin="round" />
-            <rect x="8" y="34" width="44" height="9" rx="3" fill={cor} stroke="var(--azulescuro2)" strokeWidth="1.5" />
+            <path d="M8 34 L14 12 L22 26 L30 8 L38 26 L46 12 L52 34 Z" fill={cor} stroke="var(--verdescuro2)" strokeWidth="1.5" strokeLinejoin="round" />
+            <rect x="8" y="34" width="44" height="9" rx="3" fill={cor} stroke="var(--verdescuro2)" strokeWidth="1.5" />
             <circle cx="14" cy="12" r="3" fill={cor} />
             <circle cx="30" cy="8" r="3.4" fill={cor} />
             <circle cx="46" cy="12" r="3" fill={cor} />
@@ -52,34 +52,57 @@ const Coroa: React.FC<CoroaProps> = ({ scorePosition }) => {
  */
 
 const PointBar: React.FC<PointBarProps> = ({ equipe, topScores }) => {
-
     const totalPontos = equipe.pontos.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
-
     const percentage = topScores[0] > 0 ? (totalPontos / topScores[0]) * 100 : 0;
-
-    const barWidth = percentage < 8 ? 'fit-content' : percentage + '%'
-    const remainingNameWidth = Math.max(0, 100 - percentage) + '%';
-
     const posicao = topScores.indexOf(totalPontos);
 
-    return (
-        <article className="-z-10 pt-[15px] text-white">
+    const ICON_FOOTPRINT_PX = 48;
+    
+    // No Mobile o texto fica em cima, então a barra pode crescer até 100% do espaço
+    const mobileBarWidth = `calc((100% - ${ICON_FOOTPRINT_PX}px) * ${percentage / 100} + ${ICON_FOOTPRINT_PX}px)`;
+    
+    // No Desktop o texto acompanha o ícone.
+    // Reservamos 17rem (w-64 do texto + ml-4 de margem) do total para garantir que a 
+    // barra chegue até o limite da tela acompanhada do texto sem empurrá-lo para fora!
+    const desktopBarWidth = `calc((100% - 17rem - ${ICON_FOOTPRINT_PX}px) * ${percentage / 100} + ${ICON_FOOTPRINT_PX}px)`;
 
-            {/* Descrição da equipe no mobile */}
-            <div className="md:hidden w-screen px-8 mb-4">
-                <h2 className="[@media(min-width:900px)]:text-2xl text-xl relative z-10 truncate font-eloquent font-bold">{equipe.nome}</h2>
-                <p className="text-md font-subtitulo font-bold text-laranja">{Math.floor(totalPontos)} pontos</p>
+    return (
+        <article className="-z-0 pt-[15px] text-white">
+            
+            {/* ========== MOBILE (Telas Menores) ========== */}
+            <div className="md:hidden">
+                <div className="w-full px-8 mb-4">
+                    <h2 className="text-xl relative z-10 truncate font-eloquent font-bold">{equipe.nome}</h2>
+                    <p className="text-md font-subtitulo font-bold text-laranja">{Math.floor(totalPontos)} pontos</p>
+                </div>
+                <div className="w-full px-8 mb-6 flex items-center">
+                    <div style={{ width: mobileBarWidth }} className="flex items-center flex-shrink-0">
+                        <div className="flex flex-grow items-center -z-1 h-10 shadow-soft bg-white rounded-full">
+                            <div style={{ boxShadow: '0 5px 15px rgba(0, 0, 0, 0.25)' }} className="w-full rounded-full m-2 h-4 bg-gradient-to-r from-ouro to-laranja"></div>
+                        </div>
+                        <div>
+                            <figure className="-ml-8 h-20 w-20 relative flex items-center justify-center shadow-soft rounded-full bg-white flex-shrink-0">
+                                <Image style={{ padding: "7px" }} className="absolute" src={equipe.iconPath} sizes={"1"} alt={""} fill={true} unoptimized />
+                                {posicao >= 0 && posicao <= 2 && (
+                                    <div className="absolute w-11 h-11 -top-9">
+                                        <Coroa scorePosition={posicao} />
+                                    </div>
+                                )}
+                            </figure>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div className="w-full px-8 mb-6 md:mb-0 flex items-center">
-                <div style={{ width: barWidth }} className="flex items-center">
-
+            {/* ========== DESKTOP (Telas Maiores) ========== */}
+            <div className="hidden md:flex w-full px-8 mb-0 items-center">
+                {/* O container da barra usa a largura calculada para desktop */}
+                <div style={{ width: desktopBarWidth }} className="flex items-center flex-shrink-0">
                     <div className="flex flex-grow items-center h-10 shadow-soft bg-white rounded-full">
                         <div style={{ boxShadow: '0 5px 15px rgba(0, 0, 0, 0.25)' }} className="w-full rounded-full m-2 h-4 bg-gradient-to-r from-ouro to-laranja"></div>
                     </div>
-
                     <div>
-                        <figure className="-ml-8 h-20 w-20 relative flex items-center justify-center shadow-soft rounded-full bg-white">
+                        <figure className="-ml-8 h-20 w-20 relative flex items-center justify-center shadow-soft rounded-full bg-white flex-shrink-0">
                             <Image style={{ padding: "7px" }} className="absolute" src={equipe.iconPath} sizes={"1"} alt={""} fill={true} unoptimized />
                             {posicao >= 0 && posicao <= 2 && (
                                 <div className="absolute w-11 h-11 -top-9">
@@ -88,19 +111,17 @@ const PointBar: React.FC<PointBarProps> = ({ equipe, topScores }) => {
                             )}
                         </figure>
                     </div>
-
                 </div>
-                <div style={{ width: remainingNameWidth }} className="min-w-24 lg:min-w-48 px-4 hidden md:block">
+                {/* O texto fica exatamente ao lado da barra, com margem ml-4 (1rem) e largura w-64 (16rem) */}
+                <div className="ml-4 w-64 flex-shrink-0">
                     <h2 className="text-xl w-full truncate font-eloquent font-bold">{equipe.nome}</h2>
                     <p className="text-sm font-subtitulo font-bold text-laranja w-full">{Math.floor(totalPontos)} pontos</p>
                 </div>
             </div>
-
+            
         </article>
-
     );
 }
-
 
 
 /**
@@ -128,13 +149,13 @@ const Ranking: React.FC<RankingProps> = ({ equipes, displayQuantity = -1 }) => {
     const displayEquipes = displayQuantity < 0 ? sortedEquipes : sortedEquipes.slice(0, displayQuantity)
 
     return (
-        <section className="grid grid-rows-1 gap-8 md:gap-2 md:pl-20" style={{ marginTop: "90px", marginBottom: "30px" }}>
+        <section className="grid bg-verde grid-rows-1 gap-8 md:gap-2 md:pl-20 pt-[90px] pb-[30px]">
             <h1 className="text-[3.2rem] w-fit font-black pl-7 md:pl-0 font-cinzel_decorative gradiente-titulo" style={{ marginTop: "10px" }}>Ranking</h1>
 
             {equipes.length === 0 ? (
-                <div className="mx-7 md:mr-20 px-8 py-14 text-center border border-dashed border-branco/30 rounded-card">
+                <div className="mx-7 md:mr-20 px-8 py-14 text-center border border-dashed border-bege/30 rounded-card">
                     <strong className="block font-eloquent text-creme text-xl mb-2">Ainda não há pontuações</strong>
-                    <p className="font-roboto text-branco/80 max-w-[520px] mx-auto">
+                    <p className="font-roboto text-bege/80 max-w-[520px] mx-auto">
                         O ranking do BXCOMP 2026 será atualizado conforme as etapas presenciais acontecem.
                     </p>
                 </div>
