@@ -16,7 +16,7 @@ const londrinaSolid = Londrina_Solid({
 });
 
 export const metadata: Metadata = {
-  title: "BXCOMP 2026 — Brasilidades",
+  title: "BXCOMP 2026",
   description: "Site oficial do BXCOMP 2026, o Campeonato de Programação para Calouros do Curso de Sistemas de Informação da EACH-USP, organizado pelo PET-SI. Edição 2026: Brasilidades.",
 };
 

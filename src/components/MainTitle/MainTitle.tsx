@@ -8,7 +8,7 @@ const MainTitle = () => {
 
         {/* ================= LOGO PRINCIPAL (GRANDE E EM DESTAQUE) ================= */}
         <div className="w-full flex items-center justify-center my-16 min-h-[260px] md:min-h-[340px]">
-          <div className="relative w-full max-w-[650px] h-[260px] md:h-[340px] transition-transform duration-300 hover:scale-[1.02]">
+          <div className="shadow-soft rounded-card relative w-full max-w-[650px] h-[260px] md:h-[340px] transition-transform duration-300 hover:scale-[1.02] bg-verdeclaro">
             <Image
               src="images/logo-bx.png" // Substitua pelo caminho da sua logo principal
               alt="Logo BXCOMP 2026"
@@ -37,7 +37,7 @@ const MainTitle = () => {
             </div>
 
             <h1 className="font-display font-black text-[2.2rem] md:text-[3.2rem] leading-[1.05] mb-4">
-              O que é o <span className="gradiente-titulo">BXCOMP</span>?
+              O que é o <span className="gradiente-fixo">BXCOMP</span>?
             </h1>
 
             <p className="text-bege leading-relaxed text-base md:text-lg max-w-[46ch] mx-auto md:mx-0 mb-6 font-roboto">

@@ -9,7 +9,7 @@
 @tailwind utilities;
 
 :root {
-  /* Identidade BXCOMP 2026 · "Brasilidades" (mesmas variáveis do site anterior, novos valores) */
+  /* Identidade BXCOMP 2026 · "Brasilidades" */
   --bege: #DDCBA1;
   --verdescuro: #23571F;
   --verdescuro2: #17240F;
@@ -31,7 +31,7 @@
   --melao: #E1FADF;
   --verde: #23571F;
   --verderocket: #02C59B;
-  --azulescuro: #193375;
+  --azulescuro: #081826;
 }
 
 body {
@@ -44,7 +44,19 @@ body {
   color: var(--verdescuro2);
 }
 
-/*  Títulos de seção — gradiente verde-amarelo animado  */
+/* =========================================================
+   1. VERSÃO FIXA (Novo gradiente estático idêntico à imagem)
+   ========================================================= */
+.gradiente-fixo {
+  background: linear-gradient(to right, #62BD20 0%, #D4E100 60%, #B8DC00 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* =========================================================
+   2. VERSÃO ANIMADA (Código original)
+   ========================================================= */
 .gradiente-titulo {
   position: relative;
   background: linear-gradient(135deg,
@@ -61,7 +73,6 @@ body {
   filter: brightness(0.9) saturate(1.0);
 }
 
-/* Destaque radiante (BXCOMP, etc.) — pulse amarelo-verde */
 .gradiente-destaque {
   position: relative;
   background: linear-gradient(135deg,
@@ -103,24 +114,20 @@ body {
   0% {
     background-position: 0% 50%;
   }
-
   50% {
     background-position: 100% 50%;
   }
-
   100% {
     background-position: 0% 50%;
   }
 }
 
 @keyframes pulseGlow {
-
   0%,
   100% {
     opacity: 0.15;
     filter: blur(8px) brightness(0.9);
   }
-
   50% {
     opacity: 0.35;
     filter: blur(10px) brightness(1.0);
