@@ -11,8 +11,10 @@ const EtapasEDesafios = () => {
 
     return (
         <div className="page">
-            <div id="EtapasPage" className="flex w-full flex-col justify-center gap-4 px-7 mt-20 md:px-20 pb-24 pt-14 bg-transparent">
-                <h1 className="text-5xl py-9 font-display font-black gradiente-titulo">
+            <Header></Header>
+
+            <div id="EtapasPage" className="flex w-full flex-col justify-center gap-4 px-7 mt-20 md:px-20 pb-24 bg-transparent">
+                <h1 className="text-5xl py-9 font-brasileira font-black gradiente-titulo drop-shadow-[0_2px_6px_rgba(255,175,48,0.25)]">
                     Etapas & Desafios
                 </h1>
 
