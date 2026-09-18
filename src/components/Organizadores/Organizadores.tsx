@@ -6,7 +6,7 @@ export default function Organizadores() {
     return (
         <section className="mt-[var(--section-gap)]">
             <div className="titulo flex-col">
-                <h2>A equipe 2026</h2>
+                <h2>A Equipe 2026</h2>
                 <p className="text-center max-w-[560px] mt-4 px-4">
                     Conheça quem ajudou a construir essa edição do BXCOMP.
                 </p>
