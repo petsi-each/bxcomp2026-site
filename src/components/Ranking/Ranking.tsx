@@ -135,7 +135,7 @@ const Ranking: React.FC<RankingProps> = ({ equipes, displayQuantity = -1 }) => {
     const displayEquipes = displayQuantity < 0 ? sortedEquipes : sortedEquipes.slice(0, displayQuantity)
 
     return (
-        <section className="bg-verde pt-[90px] pb-[30px] pl-8 sm:pl-20 pr-8 sm:pr-20">
+        <section className="bg-verde pt-[50px] pb-[30px] pl-8 sm:pl-20 pr-8 sm:pr-20">
             <h1 className="text-[3.2rem] w-fit font-black font-cinzel_decorative gradiente-fixo mb-4" style={{ marginTop: "10px" }}>
                 Ranking
             </h1>
