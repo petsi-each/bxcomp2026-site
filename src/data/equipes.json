@@ -1,6 +1,6 @@
 [
     {
-      "nome": ":(){:|:&};:",
+      "nome": "Python_line",
       "membros": [
         "Jaime Cavalcanti Guedes",
         "Enzo Brilhante Mattos",
@@ -11,7 +11,7 @@
       "iconPath": "/equipes/forkbomb.png"
     },
     {
-      "nome": "Se fosse Python compilava",
+      "nome": "sobra = NULL",
       "membros": [
         "Raphael Augusto de Lima Alves",
         "Igor Nascimento Silva",
@@ -22,7 +22,7 @@
       "iconPath": "/equipes/sefossepython.png"
     },
     {
-      "nome": "Urubu Punga",
+      "nome": "Llaminar Flow",
       "membros": [
         "Vinicios Conceição",
         "Andrew Luigi Ferreira Lima",
@@ -33,7 +33,7 @@
       "iconPath": "/equipes/urubupunga.png"
     },
     {
-      "nome": "TROPA DE ELSE IF",
+      "nome": "Maratonhões",
       "membros": [
         "Douglas Macedo Oliveira",
         "Caique Costa Frias",
@@ -44,7 +44,7 @@
       "iconPath": "/equipes/elseif.png"
     },
     {
-      "nome": "return divas;",
+      "nome": "Meowl - dev",
       "membros": [
         "Mariana Medeiros Santos",
         "Manuela Campos de Amorim",
@@ -55,7 +55,7 @@
       "iconPath": "/equipes/returndivas.png"
     },
     {
-      "nome": "Os Bugados",
+      "nome": "Taca a mãe pra ver se compila",
       "membros": [
         "Pedro Botelho Gondim Dantas",
         "Marcos Gabriel Chagas Rodrigues",
@@ -65,7 +65,7 @@
       "iconPath": "/equipes/osbugados.png"
     },
     {
-      "nome": "Look What You Made Us Code",
+      "nome": "Topa Docê",
       "membros": [
         "Ana Beatriz Fernandes Alves",
         "Arthur Brandão da Mata",
@@ -76,7 +76,7 @@
       "iconPath": "/equipes/lookwhatyoumadeuscode.png"
     },
     {
-      "nome": "Jaguatiricas Emo",
+      "nome": "NinjaCoders",
       "membros": [
         "Adan Lucas Guinatto Cunha",
         "Kauã Amaral Moreno",
@@ -87,7 +87,7 @@
       "iconPath": "/equipes/jaguatiricasemo.png"
     },
     {
-      "nome": "Garfo na Caveira",
+      "nome": "Quati na Rede",
       "membros": [
         "Rafael de Santana Lima",
         "Raul Brasil de Sousa",
@@ -98,7 +98,7 @@
       "iconPath": "/equipes/garfonacaveira.png"
     },
     {
-      "nome": "Duck Coders",
+      "nome": "Helton Lovers",
       "membros": [
         "Rafaela Milantoni Santiago",
         "Letícia Sati Matsuoka Tonaki",
@@ -109,7 +109,7 @@
       "iconPath": "/equipes/duckcoders.png"
     },
     {
-      "nome": "Discípulos do Helton",
+      "nome": "Ordem Paracodal",
       "membros": [
         "João Pedro Costa Santos",
         "Pedro Gabriel Valente da Silva Oliveira",
@@ -120,7 +120,7 @@
       "iconPath": "/equipes/discipulosdohelton.png"
     },
     {
-      "nome": "cavalos_de_trojan",
+      "nome": "AZERTY",
       "membros": [
         "Ayla dos Santos da Costa",
         "Beatriz dos Santos Bento",
@@ -131,7 +131,7 @@
       "iconPath": "/equipes/cavalos_de_trojan.png"
     },
     {
-      "nome": "Aura Team",
+      "nome": "c Mais ou Menos",
       "membros": [
         "Gabriel Coutinho Cezar",
         "Higor Mauricio da Silva",
@@ -142,7 +142,7 @@
       "iconPath": "/equipes/aurateam.png"
     },
     {
-      "nome": "ACCN",
+      "nome": "Os Maloques",
       "membros": [
         "Alexandre Paulo Power dos Santos",
         "Nicolas Fagundes Justi Muniz",
@@ -153,7 +153,7 @@
       "iconPath": "/equipes/ACCN.png"
     },
     {
-      "nome": "A Ordem do Ponteiro",
+      "nome": "Resenha Overflow",
       "membros": [
         "Luiz Eduardo da Silva",
         "Nicholas Kim",
@@ -163,7 +163,107 @@
       "iconPath": "/equipes/aordemdoponteiro.png"
     },
     {
-      "nome": "2001: Uma Odisseia no Malloc",
+      "nome": "Saguis do Ártico",
+      "membros": [
+        "Guilherme de Carvalho Gois",
+        "Gustavo Henrique dos Santos",
+        "Lucas Henrique Alves Nunes Bitencourt"
+      ],
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/odisseianomalloc.png"
+    },
+    {
+      "nome": "Sarampo Serpentes",
+      "membros": [
+        "Guilherme de Carvalho Gois",
+        "Gustavo Henrique dos Santos",
+        "Lucas Henrique Alves Nunes Bitencourt"
+      ],
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/odisseianomalloc.png"
+    },
+    {
+      "nome": "TADINHOS",
+      "membros": [
+        "Guilherme de Carvalho Gois",
+        "Gustavo Henrique dos Santos",
+        "Lucas Henrique Alves Nunes Bitencourt"
+      ],
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/odisseianomalloc.png"
+    },
+    {
+      "nome": "Saguis do Ártico",
+      "membros": [
+        "Guilherme de Carvalho Gois",
+        "Gustavo Henrique dos Santos",
+        "Lucas Henrique Alves Nunes Bitencourt"
+      ],
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/odisseianomalloc.png"
+    },
+    {
+      "nome": "67 magos da aura e ego",
+      "membros": [
+        "Guilherme de Carvalho Gois",
+        "Gustavo Henrique dos Santos",
+        "Lucas Henrique Alves Nunes Bitencourt"
+      ],
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/odisseianomalloc.png"
+    },
+    {
+      "nome": "Bico do Corote",
+      "membros": [
+        "Guilherme de Carvalho Gois",
+        "Gustavo Henrique dos Santos",
+        "Lucas Henrique Alves Nunes Bitencourt"
+      ],
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/odisseianomalloc.png"
+    },
+    {
+      "nome": "COMO DIMINUI A FONTE",
+      "membros": [
+        "Guilherme de Carvalho Gois",
+        "Gustavo Henrique dos Santos",
+        "Lucas Henrique Alves Nunes Bitencourt"
+      ],
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/odisseianomalloc.png"
+    },
+    {
+      "nome": "gpn",
+      "membros": [
+        "Guilherme de Carvalho Gois",
+        "Gustavo Henrique dos Santos",
+        "Lucas Henrique Alves Nunes Bitencourt"
+      ],
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/odisseianomalloc.png"
+    },
+    {
+      "nome": "Larpers",
+      "membros": [
+        "Guilherme de Carvalho Gois",
+        "Gustavo Henrique dos Santos",
+        "Lucas Henrique Alves Nunes Bitencourt"
+      ],
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/odisseianomalloc.png"
+    },
+    {
+      "nome": "Oxente++",
+      "membros": [
+        "Guilherme de Carvalho Gois",
+        "Gustavo Henrique dos Santos",
+        "Lucas Henrique Alves Nunes Bitencourt"
+      ],
+      "pontos": [ 0, 0, 0, 0, 0 ],
+      "iconPath": "/equipes/odisseianomalloc.png"
+    },
+    {
+      "nome": "SI Mogi",
       "membros": [
         "Guilherme de Carvalho Gois",
         "Gustavo Henrique dos Santos",
