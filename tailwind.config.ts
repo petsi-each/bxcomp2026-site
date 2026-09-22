@@ -27,6 +27,8 @@ const config: Config = {
         "verde": "#23571F",
         "verderocket": "#02C59B",
         "azulescuro": "#193375",
+        "bronze": "#CD7F32",
+        "prata": "#C0C0C0"
       },
       fontFamily: {
         eloquent: ['Montserrat', 'sans-serif'],         // Título — Montserrat Black
