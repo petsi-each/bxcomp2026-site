@@ -45,7 +45,7 @@
     },
     {
         "etapaIndice": 1,
-        "estaLiberada": false,
+        "estaLiberada": true,
         "tema": "Literatura",
         "descricao": "Entre folhetos de cordel e rimas de repente, a coruja se enrolou nos versos! Ajude a decifrar mensagens e organizar as estrofes usando o que você aprendeu de programação.",
         "iconName": "cordelIcon.tsx",
