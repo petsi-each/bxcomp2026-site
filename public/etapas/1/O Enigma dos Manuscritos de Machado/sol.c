@@ -1,36 +1,45 @@
 #include <stdio.h>
+#define max 1000
 
-int bateriaAprovada(const char *s) {
-    int contA = 0;
-    int ultimoFoiL = 0;
+int adicionaUm(int* array, int i){
+    if(i < 0) return -1;
 
-    for (int i = 0; s[i] != '\0'; i++) {
-        char c = s[i];
-
-        if (c == 'A') {
-            contA++;
-            if (contA == 2) {
-                return 0; // duas ou mais A's -> reprovada
-            }
-            ultimoFoiL = 0;
-        } else if (c == 'L') {
-            if (ultimoFoiL) {
-                return 0; // dois L's seguidos -> reprovada
-            }
-            ultimoFoiL = 1;
-        } else { // 'I'
-            ultimoFoiL = 0;
+    if(array[i] + 1 == 10){
+        if(i == 0){
+            array[i] = 0;
+            return 1;
+        }
+        else{
+            array[i] = 0;
+            return adicionaUm(array, i-1);
         }
     }
+    else{
+        array[i]++;
+    }
 
-    return 1;
+    return 0;
 }
 
-int main(void) {
-    char s[1005];
-    scanf("%s", s);
+int main(){
+    int n = 0;
+    int array[max];
+    int digitoExtra = 0;
 
-    printf(bateriaAprovada(s) ? "true\n" : "false\n");
+    scanf("%d", &n);
+
+    for(int i = 0; i < n; i++){
+        scanf("%d", &array[i]);
+    }
+
+    digitoExtra = adicionaUm(array, n-1);
+
+    if(digitoExtra > 0)
+        printf("%d ", digitoExtra);
+
+    for(int i = 0; i < n; i++){
+        printf("%d ", array[i]);
+    }
 
     return 0;
 }

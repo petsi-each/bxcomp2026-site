@@ -51,35 +51,35 @@
         "iconName": "cordelIcon.tsx",
         "desafios": [
             {
-                "desafio": "Ao Vencedor as Batatas - X pontos",
+                "desafio": "Ao Vencedor as Batatas - 3 pontos",
                 "enunciado": "etapas/1/Ao Vencedor as Batatas/BXCOMP.pdf",
                 "resolucao": "etapas/1/Ao Vencedor as Batatas/sol.c",
                 "entrada": "etapas/1/Ao Vencedor as Batatas/Entradas.zip",
                 "saida": "etapas/1/Ao Vencedor as Batatas/Saidas.zip"
             },
             {
-                "desafio": "As Epifanias de Clarice - X pontos",
+                "desafio": "As Epifanias de Clarice - 4 pontos",
                 "enunciado": "etapas/1/As Epifanias de Clarice/BXCOMP.pdf",
                 "resolucao": "etapas/1/As Epifanias de Clarice/sol.c",
                 "entrada": "etapas/1/As Epifanias de Clarice/Entradas.zip",
                 "saida": "etapas/1/As Epifanias de Clarice/Saidas.zip"
             },
             {
-                "desafio": "De Médico e Louco - X pontos",
+                "desafio": "De Médico e Louco - 2 pontos",
                 "enunciado": "etapas/1/De Médico e Louco/BXCOMP.pdf",
                 "resolucao": "etapas/1/De Médico e Louco/sol.c",
                 "entrada": "etapas/1/De Médico e Louco/Entradas.zip",
                 "saida": "etapas/1/De Médico e Louco/Saidas.zip"
             },
             {
-                "desafio": "O Enigma dos Manuscritos de Machado - X pontos",
+                "desafio": "O Enigma dos Manuscritos de Machado - 3 pontos",
                 "enunciado": "etapas/1/O Enigma dos Manuscritos de Machado/BXCOMP.pdf",
                 "resolucao": "etapas/1/O Enigma dos Manuscritos de Machado/sol.c",
                 "entrada": "etapas/1/O Enigma dos Manuscritos de Machado/Entradas.zip",
                 "saida": "etapas/1/O Enigma dos Manuscritos de Machado/Saidas.zip"
             },
             {
-                "desafio": "O Milésimo Plano Infalível - X pontos",
+                "desafio": "O Milésimo Plano Infalível - 6 pontos",
                 "enunciado": "etapas/1/O Milésimo Plano Infalível/BXCOMP.pdf",
                 "resolucao": "etapas/1/O Milésimo Plano Infalível/sol.c",
                 "entrada": "etapas/1/O Milésimo Plano Infalível/Entradas.zip",
@@ -90,133 +90,25 @@
     {
         "etapaIndice": 2,
         "estaLiberada": false,
-        "tema": "Esportes",
-        "descricao": "É dia de decisão no gramado! A coruja monta o time e organiza o campeonato, mas as tabelas e estatísticas do jogo só fecham com uma boa lógica de programação.",
-        "iconName": "futebolIcon.tsx",
-        "desafios": [
-            {
-                "desafio": "Batalha de Gigantes - X pontos",
-                "enunciado": "etapas/2/Batalha de Gigantes/BXCOMP.pdf",
-                "resolucao": "etapas/2/Batalha de Gigantes/sol.c",
-                "entrada": "etapas/2/Batalha de Gigantes/Entradas.zip",
-                "saida": "etapas/2/Batalha de Gigantes/Saidas.zip"
-            },
-            {
-                "desafio": "Fadinha na Pista - X pontos",
-                "enunciado": "etapas/2/Fadinha na Pista/BXCOMP.pdf",
-                "resolucao": "etapas/2/Fadinha na Pista/sol.c",
-                "entrada": "etapas/2/Fadinha na Pista/Entradas.zip",
-                "saida": "etapas/2/Fadinha na Pista/Saidas.zip"
-            },
-            {
-                "desafio": "O Tradutor de Golpes - X pontos",
-                "enunciado": "etapas/2/O Tradutor de Golpes/BXCOMP.pdf",
-                "resolucao": "etapas/2/O Tradutor de Golpes/sol.c",
-                "entrada": "etapas/2/O Tradutor de Golpes/Entradas.zip",
-                "saida": "etapas/2/O Tradutor de Golpes/Saidas.zip"
-            },
-            {
-                "desafio": "Uma Batalha Acirrada - X pontos",
-                "enunciado": "etapas/2/Uma Batalha Acirrada/BXCOMP.pdf",
-                "resolucao": "etapas/2/Uma Batalha Acirrada/sol.c",
-                "entrada": "etapas/2/Uma Batalha Acirrada/Entradas.zip",
-                "saida": "etapas/2/Uma Batalha Acirrada/Saidas.zip"
-            },
-            {
-                "desafio": "Zezinhos e as Entregas do Zico - X pontos",
-                "enunciado": "etapas/2/Zezinhos e as Entregas do Zico/BXCOMP.pdf",
-                "resolucao": "etapas/2/Zezinhos e as Entregas do Zico/sol.c",
-                "entrada": "etapas/2/Zezinhos e as Entregas do Zico/Entradas.zip",
-                "saida": "etapas/2/Zezinhos e as Entregas do Zico/Saidas.zip"
-            }
-        ]
+        "tema": "",
+        "descricao": "",
+        "iconName": "",
+        "desafios": []
     },
     {
         "etapaIndice": 3,
         "estaLiberada": false,
-        "tema": "Festas",
-        "descricao": "Bandeirinhas no alto e fogueira acesa! No arraiá da coruja, quadrilha, comidas típicas e brincadeiras juninas escondem desafios de programação para os calouros resolverem.",
-        "iconName": "festaJuninaIcon.tsx",
-        "desafios": [
-            {
-                "desafio": "Amor Espelhado - X pontos",
-                "enunciado": "etapas/3/Amor Espelhado/BXCOMP.pdf",
-                "resolucao": "etapas/3/Amor Espelhado/sol.c",
-                "entrada": "etapas/3/Amor Espelhado/Entradas.zip",
-                "saida": "etapas/3/Amor Espelhado/Saidas.zip"
-            },
-            {
-                "desafio": "Desafio 3-4 - X pontos",
-                "enunciado": "etapas/3/Desafio 3-4/BXCOMP.pdf",
-                "resolucao": "etapas/3/Desafio 3-4/sol.c",
-                "entrada": "etapas/3/Desafio 3-4/Entradas.zip",
-                "saida": "etapas/3/Desafio 3-4/Saidas.zip"
-            },
-            {
-                "desafio": "Ô Abre Alas! - X pontos",
-                "enunciado": "etapas/3/Ô Abre Alas!/BXCOMP.pdf",
-                "resolucao": "etapas/3/Ô Abre Alas!/sol.c",
-                "entrada": "etapas/3/Ô Abre Alas!/Entradas.zip",
-                "saida": "etapas/3/Ô Abre Alas!/Saidas.zip"
-            },
-            {
-                "desafio": "Rei Leão em Copacabana - X pontos",
-                "enunciado": "etapas/3/Rei Leão em Copacabana/BXCOMP.pdf",
-                "resolucao": "etapas/3/Rei Leão em Copacabana/sol.c",
-                "entrada": "etapas/3/Rei Leão em Copacabana/Entradas.zip",
-                "saida": "etapas/3/Rei Leão em Copacabana/Saidas.zip"
-            },
-            {
-                "desafio": "Saci X Bruxas - X pontos",
-                "enunciado": "etapas/3/Saci X Bruxas/BXCOMP.pdf",
-                "resolucao": "etapas/3/Saci X Bruxas/sol.c",
-                "entrada": "etapas/3/Saci X Bruxas/Entradas.zip",
-                "saida": "etapas/3/Saci X Bruxas/Saidas.zip"
-            }  
-        ]
+        "tema": "",
+        "descricao": "",
+        "iconName": "",
+        "desafios": []
     },
     {
         "etapaIndice": 4,
         "estaLiberada": false,
-        "tema": "Folclore",
-        "descricao": "Reza a lenda que o boto-cor-de-rosa se encantou pelas águas do rio e sumiu com pistas importantes! Na última etapa, folclore amazônico e programação se encontram para fechar o BXCOMP 2026.",
-        "iconName": "botoIcon.tsx",
-        "desafios": [
-            {
-                "desafio": "Curupira Exigente - X pontos",
-                "enunciado": "etapas/4/Curupira Exigente/BXCOMP.pdf",
-                "resolucao": "etapas/4/Curupira Exigente/sol.c",
-                "entrada": "etapas/4/Curupira Exigente/Entradas.zip",
-                "saida": "etapas/4/Curupira Exigente/Saidas.zip"
-            },
-            {
-                "desafio": "Entre Sacis e Curupiras - X pontos",
-                "enunciado": "etapas/4/Entre Sacis e Curupiras/BXCOMP.pdf",
-                "resolucao": "etapas/4/Entre Sacis e Curupiras/sol.c",
-                "entrada": "etapas/4/Entre Sacis e Curupiras/Entradas.zip",
-                "saida": "etapas/4/Entre Sacis e Curupiras/Saidas.zip"
-            },
-            {
-                "desafio": "O Assobio - X pontos",
-                "enunciado": "etapas/4/O Assobio/BXCOMP.pdf",
-                "resolucao": "etapas/4/O Assobio/sol.c",
-                "entrada": "etapas/4/O Assobio/Entradas.zip",
-                "saida": "etapas/4/O Assobio/Saidas.zip"
-            },
-            {
-                "desafio": "O Caldeirão da Cuca - X pontos",
-                "enunciado": "etapas/4/O Caldeirão da Cuca/BXCOMP.pdf",
-                "resolucao": "etapas/4/O Caldeirão da Cuca/sol.c",
-                "entrada": "etapas/4/O Caldeirão da Cuca/Entradas.zip",
-                "saida": "etapas/4/O Caldeirão da Cuca/Saidas.zip"
-            },
-            {
-                "desafio": "O Lago de Iara - X pontos",
-                "enunciado": "etapas/4/O Lago de Iara/BXCOMP.pdf",
-                "resolucao": "etapas/4/O Lago de Iara/sol.c",
-                "entrada": "etapas/4/O Lago de Iara/Entradas.zip",
-                "saida": "etapas/4/O Lago de Iara/Saidas.zip"
-            }  
-        ]
+        "tema": "",
+        "descricao": "",
+        "iconName": "",
+        "desafios": []
     }
 ]

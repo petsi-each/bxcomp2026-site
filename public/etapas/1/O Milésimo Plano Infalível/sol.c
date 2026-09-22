@@ -1,53 +1,53 @@
 #include <stdio.h>
 
-int main() {
-    int N; // Variável que representa a quantidade de músicas
-    int T; // Variável para armazenar o tempo máximo do show e segundos
-    int quantidadeMusicas = 0; // Variável para contar a quantidade de músicas que podem ser tocadas dentro do intervalo de tempo T
+int main(){
 
-    scanf("%d", &N); // Leitura da quantidade de músicas
-    
-    int duracaoMusica[N]; // Arranjo para armazenar a duração de cada música
+    //indice 0 = posicao, indice 1 = velocidade
+    float pelucia[2];
+    float cascao [2];
+    float xaveco [2];
+    float titi [2];
+    float cebolinha[2];
 
-    // Leitura da duração de cada música
-    for (int i = 0; i < N; i++) {
-        scanf("%d", &duracaoMusica[i]);
+    pelucia[0] = 0;
+    cebolinha[0] = 0;
+
+    scanf("%f", &pelucia[1]);
+    scanf("%f %f %f", &cascao[0], &xaveco[0], &titi[0]);
+    scanf("%f %f %f %f",&cebolinha[1], &cascao[1], &xaveco[1], &titi[1]);
+
+    float posicao_final(float posicao_inicial, float velocidade){
+        return posicao_inicial + velocidade*10.0;
     }
-
-    scanf("%d", &T); // Leitura do tempo máximo do show em segundos
-
-
-    int temporario; // Variável temporária para auxiliar na ordenação das durações das músicas
-
-    /* 
-    Ordenação das durações das músicas em ordem crescente usando Bubble Sort (outros algoritmos de ordenação poderiam ser usados para maior eficiência, mas Bubble Sort é simples e suficiente para este caso)
     
-    O algoritmo funciona da seguinte maneira:
-    1- Ele percorre o arranjo de durações das músicas várias vezes.
-    2- Em cada passagem, ele compara elementos adjacentes e os troca de posição se estiverem na ordem errada (se o elemento atual for maior que o próximo).
-    3- O processo é repetido até que o arranjo esteja completamente ordenado, ou seja, até que nenhuma troca seja necessária em uma passagem completa.
-    */
-    for (int i = 0; i < N - 1; i++) {
-        for (int j = 0; j < N - i - 1; j++) {
-            if (duracaoMusica[j] > duracaoMusica[j + 1]) { // Se a duração da música atual for maior que a próxima...
-                temporario = duracaoMusica[j]; // Armazena a duração da música atual na variável temporária
-                duracaoMusica[j] = duracaoMusica[j + 1]; // A duração da próxima música é movida para a posição da música atual
-                duracaoMusica[j + 1] = temporario; // A duração da música armazenada na variável temporária (a música atual) é movida para a posição da próxima música
-            }
+    int eh_alcancavel(float personagem[]){
+        float posicao_personagem = posicao_final(personagem[0], personagem[1]);
+        float posicao_pelucia = posicao_final(pelucia[0], pelucia[1]);
+        
+        if(posicao_personagem <= posicao_pelucia){
+            return 1;
+        }
+
+        else{
+            return 0;
         }
     }
 
-    // Passando pelas durações das músicas ordenadas, contando quantas músicas podem ser tocadas dentro do tempo T
-    for (int i = 0; i < N; i++) {
-        if (duracaoMusica[i] <= T) { // Se a duração da música atual for menor ou igual ao tempo restante T, ela pode ser tocada
-            quantidadeMusicas++; // Incrementa a contagem de músicas que podem ser tocadas
-            T -= duracaoMusica[i]; // Subtrai a duração da música do tempo restante T
-        } else {
-            break;
-        }
+
+    if(eh_alcancavel(cebolinha) == 0){
+        printf("Que solte agola eu sou o dono da lua");
     }
-    
-    printf("%d\n", quantidadeMusicas); // Imprime a quantidade de músicas que podem ser tocadas dentro do tempo T
-    
-    return 0;
+    else if(eh_alcancavel(cascao) == 0){
+        printf("Esse coelho ta mais sujo do que eu");
+    }
+    else if(eh_alcancavel(xaveco) == 0){
+        printf("Eu tambem estou nesse desafio");
+    }
+    else if(eh_alcancavel(titi) == 0){
+        printf("Ele nem e tao dentuco assim");
+    }
+    else{
+        printf("Sujou, a dentuca e muito folte");
+    }
+
 }

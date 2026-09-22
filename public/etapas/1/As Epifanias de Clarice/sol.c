@@ -1,69 +1,63 @@
+/************************************************************************
+ * Encontrar o tamanho do menor intervalo contínuo (sub-string) do      *
+ * texto S que contenha todas as letras da palavra P na ordem correta,  *
+ * aparecfimo de forma NÃO-CONTÍNUA (como uma subsequência de S).       *
+ *                                                                      *
+ * Entrada: Inteiro N (quantidade de casos de teste).                   *
+ * Para cada caso (2 linhas):                                           *
+ * - String S (fluxo), 1 a 10^5 caracteres, apenas letras minúsculas.   *
+ * - String P (palavra), 1 a 100 caracteres, apenas letras minúsculas.  *
+ *                                                                      *
+ * Sucesso: Imprimir "X CARACTERES DE PURA EPIFANIA!", sfimo X o        *
+ * tamanho do menor trecho contínuo encontrado.                         *
+ * Falha: Imprimir "Epifania incompleta... O fluxo se perdeu."          *
+ ************************************************************************/
 #include <stdio.h>
 #include <string.h>
-#include <ctype.h>
 
-#define MAXM 100
-#define MAXP 31
+int main() {
+    int N, tamS, tamP, menor;
+    char S[100001], P[101];
 
-int comparaPalavra(char *a, char *b) { // compara as palavras
-    while (*a && *b) {
-        if (tolower(*a) != tolower(*b))
-            return 0;
-        a++; b++;
-    }
-    return *a == '\0' && *b == '\0';
-}
+    scanf("%d", &N);
+    // Para cada caso de teste
+    for (int i = 0; i < N; i++){
+        scanf("%s", S);
+        scanf("%s", P);
 
-// ve se a palavra termina com ol 
-int terminaComOL( char *palavra) {
-    int len = strlen(palavra);
-    if (len < 2) return 0;
-    char c1 = tolower(palavra[len - 2]);
-    char c2 = tolower(palavra[len - 1]);
-    return (c1 == 'o' && c2 == 'l');
-}
+        tamS = strlen(S);
+        tamP = strlen(P);
+        menor = tamS + 1; // substrings de S devem ter tamanho <= S
 
-int main(void) {
-    int C ;
-    scanf("%d", &C);
+        for (int j = 0; j < tamS; j++){ // Fluxo S
+            if(S[j] != P[0]) continue;
 
-    while (C>0) {
-        char alerta[MAXP];
-        int K, N;
+            // proxP indica a letra que queremos encontrar de P
+            // subS indica a posição dentro da substring de S onde estamos buscando
+            int proxP = 0, subS = j;
 
-        scanf("%s", alerta);
-        scanf("%d", &K);
-        scanf("%d", &N);
-
-        char palavras[MAXM][MAXP];
-        for (int i = 0; i < N; i++) {
-            scanf("%s", palavras[i]);
-        }
-
-        // pelo menos k palavras terminando em "OL"
-        int contEsperanca = 0;
-        for (int i = 0; i < N; i++) {
-            if (terminaComOL(palavras[i])) contEsperanca++;
-        }
-        int regra1 = (contEsperanca >= K);
-
-        // palavra de alerta n pode repetir em sequencia
-        int regra2 = 1;
-        for (int i = 0; i < N - 1; i++) {
-            if (comparaPalavra(palavras[i], alerta) && comparaPalavra(palavras[i + 1], alerta)) {
-                regra2 = 0;
-                break;
+            // enquanto não achamos P inteira ou o fim de S...
+            while (proxP < tamP && subS < tamS) {
+                if (S[subS] == P[proxP])
+                    proxP++; // se a letra de S for o próximo caracter de P, avançamos em P
+                
+                subS++; // avançamos em S independentemente do resultado
+            }
+            if (proxP == tamP){ // se achamos P inteira
+                int tamanhoTrecho = subS - j; // a última posição da substring menos a primeira
+                if (tamanhoTrecho < menor){
+                    // atualiza se foi o menor até agora
+                    menor = tamanhoTrecho;
+                }
             }
         }
 
-        // primeira e ultim mesmo tam
-        int regra3 = (strlen(palavras[0]) == strlen(palavras[N - 1]));
-
-        if (regra1 && regra2 && regra3) {
-            printf("Fita pronta a ser enviada para Lisboa!\n");
+        if (menor == tamS + 1){ // se não achamos nenhum trecho
+            printf("Epifania incompleta... O fluxo se perdeu.\n");
         } else {
-            printf("Cuidado! Sua fita sera barrada!\n");
+            printf("%d CARACTERES DE PURA EPIFANIA!\n", menor);
         }
-        C--;
-    }
+    }   
+
+    return 0;
 }
