@@ -29,7 +29,7 @@ interface CoroaProps {
 const Coroa: React.FC<CoroaProps> = ({ scorePosition }) => {
     if (scorePosition < 0 || scorePosition > 2) return null;
 
-    const cores = ["var(--ouro)", "var(--prata)", "var(--bronze)"];
+    const cores = ["var(--ouro)", "var(--azulciano)", "var(--azulsuave)"];
     const cor = cores[scorePosition];
 
     return (
@@ -75,7 +75,7 @@ const PointBar: React.FC<PointBarProps> = ({ equipe, topScores }) => {
                         </div>
                         <div>
                             <figure className="-ml-8 h-20 w-20 relative flex items-center justify-center shadow-soft rounded-full bg-white flex-shrink-0">
-                                <Image style={{ padding: "7px" }} className="absolute" src={equipe.iconPath} sizes={"1"} alt={""} fill={true} unoptimized />
+                                <Image style={{ padding: "7px" }} className="rounded-full absolute" src={equipe.iconPath} sizes={"1"} alt={""} fill={true} unoptimized />
                                 {posicao >= 0 && posicao <= 2 && (
                                     <div className="absolute w-11 h-11 -top-9">
                                         <Coroa scorePosition={posicao} />
@@ -96,7 +96,7 @@ const PointBar: React.FC<PointBarProps> = ({ equipe, topScores }) => {
                     </div>
                     <div>
                         <figure className="-ml-8 h-20 w-20 relative flex items-center justify-center shadow-soft rounded-full bg-white flex-shrink-0">
-                            <Image style={{ padding: "7px" }} className="absolute" src={equipe.iconPath} sizes={"1"} alt={""} fill={true} unoptimized />
+                            <Image style={{ padding: "7px" }} className="rounded-full absolute" src={equipe.iconPath} sizes={"1"} alt={""} fill={true} unoptimized />
                             {posicao >= 0 && posicao <= 2 && (
                                 <div className="absolute w-11 h-11 -top-9">
                                     <Coroa scorePosition={posicao} />
