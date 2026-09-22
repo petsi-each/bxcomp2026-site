@@ -14,7 +14,7 @@ const EtapasEDesafios = () => {
         <div className="page">
             <Header></Header>
 
-            <div id="EtapasPage" className="flex w-full flex-col justify-center gap-4 px-7 mt-20 md:px-20 pb-24 bg-transparent">
+            <div id="EtapasPage" className="flex w-full flex-col justify-center gap-4 px-7 mt-[4rem] md:px-20 pb-24 bg-transparent">
                 <h1 className="text-5xl py-9 font-brasileira font-black gradiente-fixo">
                     Etapas & Desafios
                 </h1>

@@ -26,7 +26,7 @@ function RegulamentoButton() {
 
 export default function Sobre() {
     return (
-        <div className="bg-[#23571F] min-h-screen text-[#DDCBA1] pb-[60px]">
+        <div className="min-h-screen text-[#DDCBA1] pb-[60px]">
             {/* O que é o BXComp */}
             <section className="w-[85%] mx-auto flex flex-col justify-center pt-24">
                 <h1 className="font-['Montserrat',sans-serif] font-black text-[2.8rem] my-8 text-[#FFFCE3] drop-shadow-[0_4px_12px_rgba(0,0,0,0.25)]">
