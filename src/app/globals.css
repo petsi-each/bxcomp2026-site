@@ -38,7 +38,24 @@
 
 body {
   color: var(--bege);
-  background: var(--verdescuro);
+  background-color: var(--verdescuro);
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Pseudo-elemento para aplicar o fundo com opacidade sem afetar os textos */
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: url('/images/fundoAzulBX.png');
+  background-repeat: repeat;
+  background-size: 550px auto;
+  background-position: center;
+  mix-blend-mode: luminosity;
+  opacity: 0.6;
 }
 
 ::selection {

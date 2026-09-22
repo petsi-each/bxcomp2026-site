@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const MainTitle = () => {
   return (
-    <main className="relative overflow-hidden bg-verdescuro text-white flex flex-col items-center justify-start pt-32 pb-10">
+    <main className="relative overflow-hidden text-white flex flex-col items-center justify-start pt-32 pb-10">
 
       <div className="relative container max-w-[1240px] w-full px-6 mx-auto flex flex-col items-center">
 
