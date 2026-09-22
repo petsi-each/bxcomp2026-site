@@ -47,7 +47,7 @@ export default function Sobre() {
             <section className="mt-[clamp(56px,9vw,110px)]">
                 <div className="w-[85%] mx-auto flex flex-col lg:flex-row items-stretch justify-between gap-8 text-center lg:text-left">
                     <div className="flex-1 flex justify-center items-center [&_svg]:w-full [&_svg]:max-w-[260px] [&_svg]:h-auto">
-                        <ObjetivoIlustracao />
+                        <img src="/img/2025.png" alt="Participantes do BXCOMP 2025" className="h-50 rounded-lg shadow-lg object-cover" />
                     </div>
 
                     <div className="flex-1 p-2.5">
@@ -72,7 +72,7 @@ export default function Sobre() {
             <section className="mt-[clamp(56px,9vw,110px)]">
                 <div className="w-[85%] mx-auto flex flex-col md:flex-row-reverse items-stretch justify-between gap-8 text-center md:text-left">
                     <div className="flex-1 flex justify-center items-center [&_svg]:w-full [&_svg]:max-w-[260px] [&_svg]:h-auto">
-                        <OrganizacaoIlustracao />
+                        <img src="/img/organizacao.png" alt="Organização do BXCOMP"/>
                     </div>
 
                     <div className="flex-1 p-2.5">
