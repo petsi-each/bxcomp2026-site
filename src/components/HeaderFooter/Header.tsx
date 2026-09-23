@@ -23,7 +23,7 @@ const Header = () => {
             {/* Escala de z-index: 200 = header, 250 = overlay escuro do menu mobile, 300 = botão de menu e painel mobile */}
             <header className="z-[200] flex fixed top-0 w-screen justify-between items-center bg-verdeclaro/95 backdrop-blur border-b border-bege/10 py-[2px] pl-6 pr-8">
                 <Link href="/">
-                    <img className="w-[160px] md:w-[190px] h-[58px] md:h-[68px] object-cover object-center" src="/images/logo-bx.png" alt="Logo BXCOMP" />
+                    <img className="w-[160px] md:w-[190px] h-[58px] md:h-[68px] object-cover object-center" src="/images/logo-header.svg" alt="Logo BXCOMP" />
                 </Link>
 
                 {/* Desktop */}
