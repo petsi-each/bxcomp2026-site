@@ -2,10 +2,10 @@
     {
       "nome": "Python_line",
       "membros": [
-        "Jaime Cavalcanti Guedes",
-        "Enzo Brilhante Mattos",
-        "Rafael Pioto Gomes",
-        "Thiago de Salvo Castro Alves"
+        "Mateus Stofel Brito",
+        "Pedro Fernandes",
+        "Eduardo Brandão Longhi",
+        "Melissa Ayumi Sakuda de Magalhães"
       ],
       "pontos": [ 0, 5, 8, 6, 12 ],
       "iconPath": "/equipes/Python_line.png"
@@ -13,10 +13,10 @@
     {
       "nome": "sobra = NULL",
       "membros": [
-        "Raphael Augusto de Lima Alves",
-        "Igor Nascimento Silva",
-        "Antonio Pedro Costa Oliveira Pretti Espindula",
-        "Felipe Yuji Okokama"
+        "Vinícius Miura do Espírito Santo",
+        "Daniel Christi Cardoso Bento",
+        "Vinícius Vieira Kasahara",
+        "Valentina Sabino Patricio Cominguez"
       ],
       "pontos": [ 0, 3, 7, 3, 8 ],
       "iconPath": "/equipes/sobra = NULL.png"
@@ -24,10 +24,10 @@
     {
       "nome": "Llaminar Flow",
       "membros": [
-        "Vinicios Conceição",
-        "Andrew Luigi Ferreira Lima",
-        "João Pedro Becer da Cunha",
-        "Pedro Paulo Andrade Oliveira"
+        "Matheus Pires Carneiro",
+        "Nathália Rodrigues Pereira",
+        "João Lucas Monsynhatti Lima",
+        "Anna Isabela Bianchini Pontuschka"
       ],
       "pontos": [ 0, 0, 3, 0, 5 ],
       "iconPath": "/equipes/Llaminar Flow.png"
@@ -35,10 +35,10 @@
     {
       "nome": "Maratonhões",
       "membros": [
-        "Douglas Macedo Oliveira",
-        "Caique Costa Frias",
-        "Caique Sidrão Siqueira Barbosa",
-        "Filipi Gonçalves Rios"
+        "Paulo Henrique Silva Borges",
+        "Rikelme Sousa de Carvalho",
+        "Eduardo Diniz da Silva",
+        "Theo Santos Gentil"
       ],
       "pontos": [ 0, 14, 8, 5, 12 ],
       "iconPath": "/equipes/Maratonhões.png"
@@ -46,10 +46,10 @@
     {
       "nome": "Meowl - dev",
       "membros": [
-        "Mariana Medeiros Santos",
-        "Manuela Campos de Amorim",
-        "Mikelly Dantas Reis",
-        "Sabrina Cristan"
+        "Alexandre Rodrigues Massaki",
+        "Kelwin Chen Hong",
+        "Kennedy Althiere Rodrigues dos Santos",
+        "Enzo Rabello Miranda"
       ],
       "pontos": [ 0, 0, 7, 0, 8 ],
       "iconPath": "/equipes/Meowl-dev.png"
@@ -57,9 +57,10 @@
     {
       "nome": "Taca a mãe pra ver se compila",
       "membros": [
-        "Pedro Botelho Gondim Dantas",
-        "Marcos Gabriel Chagas Rodrigues",
-        "Maria Carolina Soares Costa"
+        "Rodrigo Rigonati Rocha",
+        "Nicolas Sopczack de Carvalho",
+        "João Victor Batista Dias",
+        "Kaio Shoji Otiai"
       ],
       "pontos": [ 0, 0, 0, 0, 0 ],
       "iconPath": "/equipes/Taca a mãe pra ver se compila.png"
@@ -67,10 +68,10 @@
     {
       "nome": "Tropa Docê",
       "membros": [
-        "Ana Beatriz Fernandes Alves",
-        "Arthur Brandão da Mata",
-        "Caio Gaspar Paula",
-        "Marco Lima Maia"
+        "Igor Henrique Maia",
+        "Marcelo de Oliveira Santos",
+        "Marcos Andre Laguardia Almeida",
+        "João Victor de Menezes Martins"
       ],
       "pontos": [ 0, 4, 3, 2, 2 ],
       "iconPath": "/equipes/Tropa Docê.png"
@@ -78,10 +79,10 @@
     {
       "nome": "NinjaCoders",
       "membros": [
-        "Adan Lucas Guinatto Cunha",
-        "Kauã Amaral Moreno",
-        "Guilherme Delbon Souza",
-        "Kaua Ryu Nichioka Egami"
+        "Igor Fernando Casita Ferreira da Silva",
+        "Guilherme Costa",
+        "Ezequiel Melo Nogueira",
+        "Matheus Resende Rodriguez"
       ],
       "pontos": [ 0, 9, 7, 7, 12 ],
       "iconPath": "/equipes/NinjaCoders.png"
@@ -89,10 +90,10 @@
     {
       "nome": "Quati na Rede",
       "membros": [
-        "Rafael de Santana Lima",
-        "Raul Brasil de Sousa",
-        "Lucas Stefenoni Ramos",
-        "Giovane Giroldo da Silva"
+        "Marina Piccolo Gritti Rahman",
+        "Marcella Yumi Toda Dantas",
+        "Bianca Gomes da Silva",
+        "Maria Eduarda Ramos Carlucci"
       ],
       "pontos": [ 0, 13, 0, 6, 5 ],
       "iconPath": "/equipes/Quati na Rede.png"
@@ -100,10 +101,10 @@
     {
       "nome": "Helton Lovers",
       "membros": [
-        "Rafaela Milantoni Santiago",
-        "Letícia Sati Matsuoka Tonaki",
-        "Samira Messias Lins",
-		"Caroline Aparecida Oliveira Santiago"
+        "Júlio Antunes Estrela",
+        "Lucas Alves Moreira",
+        "Breno Martins de Souza",
+		    "Marcelo Trevine"
       ],
       "pontos": [ 0, 0, 0, 0, 2 ],
       "iconPath": "/equipes/Helton Lovers.png"
@@ -111,10 +112,9 @@
     {
       "nome": "Ordem Paracodal",
       "membros": [
-        "João Pedro Costa Santos",
-        "Pedro Gabriel Valente da Silva Oliveira",
-        "Thainá Ferreira da Silva",
-        "Mateus Nunes Pereira"
+        "Lucas Tino Rosa",
+        "Gustavo Santana Damião",
+        "Théo Augusto Silva Foresti"
       ],
       "pontos": [ 0, 0, 0, 0, 0 ],
       "iconPath": "/equipes/Ordem Paracodal.png"
@@ -122,21 +122,21 @@
     {
       "nome": "AZERTY",
       "membros": [
-        "Ayla dos Santos da Costa",
-        "Beatriz dos Santos Bento",
-        "Fernanda Yumi Taira",
-        "Guilherme Sacarrão Bastos"
+        "Júlio César Barbosa Sandoli",
+        "João Pedro Lima Afonso",
+        "Lucas Monteiro Carvalho da Silva",
+        "Luiggi Henrique Silva Oliveira"
       ],
       "pontos": [ 0, 0, 0, 2, 5 ],
       "iconPath": "/equipes/AZERTY.png"
     },
     {
-      "nome": "c Mais ou Menos",
+      "nome": "C Mais ou Menos",
       "membros": [
-        "Gabriel Coutinho Cezar",
-        "Higor Mauricio da Silva",
-        "Fernando Silva Barreto Filho",
-        "Artur Rossoni Baraldi"
+        "Gustavo Santos Sá",
+        "Gabriel Aveiro de Moura",
+        "Bruno Alves Fernandes Silva",
+        "Pedro Henrique Ferreira Paulino"
       ],
       "pontos": [ 0, 0, 0, 0, 0 ],
       "iconPath": "/equipes/c Mais ou Menos.png"
@@ -144,10 +144,10 @@
     {
       "nome": "Os Maloques",
       "membros": [
-        "Alexandre Paulo Power dos Santos",
-        "Nicolas Fagundes Justi Muniz",
-        "Cristian de Lima Meira",
-        "Carlos Vitor de Lima Pinto"
+        "Vittorio Aliro Dorado Hung",
+        "Felipe Guimarães Teodoro",
+        "Gabriel Matos Verona Narciso",
+        "Eduardo Nascimento Soares"
       ],
       "pontos": [ 0, 10, 14, 6, 16 ],
       "iconPath": "/equipes/Maloques.png"
@@ -155,9 +155,10 @@
     {
       "nome": "Resenha Overflow",
       "membros": [
-        "Luiz Eduardo da Silva",
-        "Nicholas Kim",
-        "Jeffrey Zhang"
+        "Luan da Silva Nunes",
+        "Lucas Silva Evangelista de Almeida",
+        "Heitor Landim Romero de Vasconcelos",
+        "Kaíque Costa Nobre"
       ],
       "pontos": [ 0, 0, 0, 0, 2 ],
       "iconPath": "/equipes/Resenha Overflow.png"
@@ -165,9 +166,10 @@
     {
       "nome": "Saguis do Ártico",
       "membros": [
-        "Guilherme de Carvalho Gois",
-        "Gustavo Henrique dos Santos",
-        "Lucas Henrique Alves Nunes Bitencourt"
+        "Pedro Augusto Barros Navarro Barbosa",
+        "João Paulo Ferreira de Azevedo",
+        "João Pedro Barreto Donato",
+        "Bruno Jacob Lima"
       ],
       "pontos": [ 0, 0, 0, 0, 0 ],
       "iconPath": "/equipes/Saguis do Ártico.png"
@@ -175,9 +177,10 @@
     {
       "nome": "Sarampo Serpentes",
       "membros": [
-        "Guilherme de Carvalho Gois",
-        "Gustavo Henrique dos Santos",
-        "Lucas Henrique Alves Nunes Bitencourt"
+        "Victor Weiner Andrade Floriano",
+        "Lucas Pereira de Barros",
+        "Felipe da Cruz Soares Sanches",
+        "Arthur Romani Gonçalves"
       ],
       "pontos": [ 0, 0, 0, 0, 0 ],
       "iconPath": "/equipes/Sarampo Serpentes.png"
@@ -185,19 +188,21 @@
     {
       "nome": "TADINHOS",
       "membros": [
-        "Guilherme de Carvalho Gois",
-        "Gustavo Henrique dos Santos",
-        "Lucas Henrique Alves Nunes Bitencourt"
+        "André Luiz Vieira Cerca",
+        "Matheus Soares dos Santos Costa",
+        "Lucca de Freitas Souza",
+        "Miguel Lourenço Vieira"
       ],
-      "pontos": [ 0, 0, 0, 0, 0 ],
+      "pontos": [ 0, 2, 0, 0, 0 ],
       "iconPath": "/equipes/TADINHOS.png"
     },
     {
       "nome": "67 magos da aura e ego",
       "membros": [
-        "Guilherme de Carvalho Gois",
-        "Gustavo Henrique dos Santos",
-        "Lucas Henrique Alves Nunes Bitencourt"
+        "Luiz Eduardo Hortencio",
+        "Guilherme Marques Fagundes Jacome",
+        "Gustavo Yutaka Idokawa",
+        "Gustavo da Silva"
       ],
       "pontos": [ 0, 0, 0, 0, 0 ],
       "iconPath": "/equipes/67 magos da aura e ego.png"
@@ -205,9 +210,10 @@
     {
       "nome": "Bico do Corote",
       "membros": [
-        "Guilherme de Carvalho Gois",
-        "Gustavo Henrique dos Santos",
-        "Lucas Henrique Alves Nunes Bitencourt"
+        "Vinicius da Silva Augusto",
+        "Nátaly Pinheiro de Lima",
+        "Nicole Costa Rodrigues",
+        "Caio do Nascimento Barros"
       ],
       "pontos": [ 0, 0, 0, 0, 0 ],
       "iconPath": "/equipes/Bico do Corote.png"
@@ -215,9 +221,10 @@
     {
       "nome": "COMO DIMINUI A FONTE",
       "membros": [
-        "Guilherme de Carvalho Gois",
-        "Gustavo Henrique dos Santos",
-        "Lucas Henrique Alves Nunes Bitencourt"
+        "Victor Henriques Costa",
+        "Samuel Riki Alruiz Nunez",
+        "Rafael Martins Ferreira",
+        "Rafael Niacaris Capilupi"
       ],
       "pontos": [ 0, 0, 0, 0, 0 ],
       "iconPath": "/equipes/COMO DIMINUI A FONTE.png"
@@ -225,9 +232,10 @@
     {
       "nome": "gpn",
       "membros": [
-        "Guilherme de Carvalho Gois",
-        "Gustavo Henrique dos Santos",
-        "Lucas Henrique Alves Nunes Bitencourt"
+        "Enzo Henrique Dias Ribeiro",
+        "Lucas Vechi Liggi",
+        "Marisa Mayumi Morita Ouchi",
+        "Raquel Yukie Tsuji"
       ],
       "pontos": [ 0, 0, 0, 0, 0 ],
       "iconPath": "/equipes/gpn.png"
@@ -235,9 +243,9 @@
     {
       "nome": "Larpers",
       "membros": [
-        "Guilherme de Carvalho Gois",
-        "Gustavo Henrique dos Santos",
-        "Lucas Henrique Alves Nunes Bitencourt"
+        "Fabrízio Machado de Moura",
+        "Marcos Antônio Costa Gomes dos Santos",
+        "Tiago dos Santos Souza"
       ],
       "pontos": [ 0, 0, 0, 0, 0 ],
       "iconPath": "/equipes/Larpers.png"
@@ -245,9 +253,10 @@
     {
       "nome": "Oxente++",
       "membros": [
-        "Guilherme de Carvalho Gois",
-        "Gustavo Henrique dos Santos",
-        "Lucas Henrique Alves Nunes Bitencourt"
+        "Murilo Patelli Cruz",
+        "Giovanni Bestana Fernandes",
+        "Juan Souza Gomes",
+        "Alex de Jesus Santana"
       ],
       "pontos": [ 0, 0, 0, 0, 0 ],
       "iconPath": "/equipes/Oxente++.png"
@@ -255,9 +264,10 @@
     {
       "nome": "SI Mogi",
       "membros": [
-        "Guilherme de Carvalho Gois",
-        "Gustavo Henrique dos Santos",
-        "Lucas Henrique Alves Nunes Bitencourt"
+        "Adrian Eliel Santiago Souza",
+        "Matheus Sannomiya de Mello",
+        "Murilo Omoniyi Bernardi Diniz",
+        "Guilherme Jacque de Sousa"
       ],
       "pontos": [ 0, 0, 0, 0, 0 ],
       "iconPath": "/equipes/SI Mogi.png"
