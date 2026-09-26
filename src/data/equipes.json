@@ -139,7 +139,7 @@
         "Pedro Henrique Ferreira Paulino"
       ],
       "pontos": [ 0, 2, 0, 0, 0 ],
-      "iconPath": "/equipes/c Mais ou Menos.png"
+      "iconPath": "/equipes/c mais ou menos.png"
     },
     {
       "nome": "Os Maloques",
@@ -172,7 +172,7 @@
         "Bruno Jacob Lima"
       ],
       "pontos": [ 0, 2, 2, 0, 0 ],
-      "iconPath": "/equipes/Saguis do Ártico.png"
+      "iconPath": "/equipes/saguis.png"
     },
     {
       "nome": "Sarampo Serpentes",
@@ -259,7 +259,7 @@
         "Alex de Jesus Santana"
       ],
       "pontos": [ 0, 0, 5, 0, 0 ],
-      "iconPath": "/equipes/Oxente++.png"
+      "iconPath": "/equipes/oxente.png"
     },
     {
       "nome": "SI Mogi",
