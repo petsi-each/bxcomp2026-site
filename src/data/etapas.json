@@ -89,11 +89,47 @@
     },
     {
         "etapaIndice": 2,
-        "estaLiberada": false,
-        "tema": "",
-        "descricao": "",
-        "iconName": "",
-        "desafios": []
+        "estaLiberada": true,
+        "tema": "Esportes",
+        "descricao": "É dia de decisão no gramado! A coruja monta o time e organiza o campeonato, mas as tabelas e estatísticas do jogo só fecham com uma boa lógica de programação.",
+        "iconName": "futebolIcon.tsx",
+        "desafios": [
+            {
+                "desafio": "Batalha de Gigantes - 2 pontos",
+                "enunciado": "etapas/2/Batalha de Gigantes/BXCOMP.pdf",
+                "resolucao": "etapas/2/Batalha de Gigantes/sol.c",
+                "entrada": "etapas/2/Batalha de Gigantes/Entradas.zip",
+                "saida": "etapas/2/Batalha de Gigantes/Saidas.zip"
+            },
+            {
+                "desafio": "O Tradutor de Golpes - 3 pontos",
+                "enunciado": "etapas/2/O Tradutor de Golpes/BXCOMP.pdf",
+                "resolucao": "etapas/2/O Tradutor de Golpes/sol.c",
+                "entrada": "etapas/2/O Tradutor de Golpes/Entradas.zip",
+                "saida": "etapas/2/O Tradutor de Golpes/Saidas.zip"
+            },
+            {
+                "desafio": "Uma Batalha Acirrada - 3 pontos",
+                "enunciado": "etapas/2/Uma Batalha Acirrada/BXCOMP.pdf",
+                "resolucao": "etapas/2/Uma Batalha Acirrada/sol.c",
+                "entrada": "etapas/2/Uma Batalha Acirrada/Entradas.zip",
+                "saida": "etapas/2/Uma Batalha Acirrada/Saidas.zip"
+            },
+            {
+                "desafio": "Fadinha na Pista - 4 pontos",
+                "enunciado": "etapas/2/Fadinha na Pista/BXCOMP.pdf",
+                "resolucao": "etapas/2/Fadinha na Pista/sol.c",
+                "entrada": "etapas/2/Fadinha na Pista/Entradas.zip",
+                "saida": "etapas/2/Fadinha na Pista/Saidas.zip"
+            },
+            {
+                "desafio": "Zezinhos e as Entregas do Zico - 6 pontos",
+                "enunciado": "etapas/2/Zezinhos e as Entregas do Zico/BXCOMP.pdf",
+                "resolucao": "etapas/2/Zezinhos e as Entregas do Zico/sol.c",
+                "entrada": "etapas/2/Zezinhos e as Entregas do Zico/Entradas.zip",
+                "saida": "etapas/2/Zezinhos e as Entregas do Zico/Saidas.zip"
+            }
+        ]
     },
     {
         "etapaIndice": 3,

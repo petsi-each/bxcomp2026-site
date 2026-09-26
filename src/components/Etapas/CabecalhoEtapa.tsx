@@ -11,7 +11,7 @@ const CabecalhoEtapa: React.FC<CabecalhoEtapaProps> = ({ etapas, idSelecionado }
     return (
         <div id="Cabecalho" className="block max-w-[52vw] [@media(max-width:768px)]:max-w-full">
             <h2 className="text-creme text-[1.4rem] font-eloquent font-extrabold mb-[18px]">
-                Etapa {etapa.etapaIndice + 1} — {etapa.tema}
+                Etapa {etapa.etapaIndice} — {etapa.tema}
             </h2>
             <p className="inline-block text-bege text-[1.02rem] font-roboto leading-relaxed">
                 {etapa.descricao}
