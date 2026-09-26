@@ -27,14 +27,17 @@ const config: Config = {
         "verde": "#23571F",
         "verderocket": "#02C59B",
         "azulescuro": "#193375",
+        "bronze": "#CD7F32",
+        "prata": "#C0C0C0"
       },
       fontFamily: {
-        eloquent: ['Montserrat', 'sans-serif'],        // Título — Montserrat Black
-        display: ['Poppins', 'sans-serif'],             // Headlines grandes — Poppins Black
-        cinzel_decorative: ['Poppins', 'sans-serif'],   // Títulos de seção em gradiente
-        cinzel: ['Poppins', 'sans-serif'],
+        eloquent: ['Montserrat', 'sans-serif'],         // Título — Montserrat Black
+        display: ['var(--font-brasileira)', 'cursive'], // Headlines grandes — Nova fonte brasileira
+        cinzel_decorative: ['var(--font-brasileira)', 'cursive'], // Títulos de seção em gradiente
+        cinzel: ['var(--font-brasileira)', 'cursive'],
+        brasileira: ['var(--font-brasileira)', 'cursive'], // Alias explícito para tipografia brasileira
         subtitulo: ['"Space Grotesk"', 'sans-serif'],   // Sub-título — Space Grotesk Bold
-        poppins: ['Poppins', 'sans-serif'],
+        poppins: ['var(--font-poppins)', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],               // Texto — Roboto Regular
         times: ['"Space Grotesk"', 'sans-serif'],       // legado (datas do regulamento)
       },

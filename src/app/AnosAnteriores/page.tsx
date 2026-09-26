@@ -20,9 +20,9 @@ export default function AnosAnteriores() {
   return (
     <div className="page">
         <Header></Header>
-        <div className="w-full min-h-screen bg-[#1F4E23] text-white flex flex-col items-center justify-center px-4 py-12">
+        <div className="w-full min-h-screen bg-[#1F4E23] text-white flex flex-col items-center justify-center px-4 pt-[8rem] pb-[1rem]">
         <div className="max-w-4xl w-full text-center space-y-4 mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-[#E1FADF]">
+            <h1 className="text-4xl md:text-5xl font-brasileira tracking-tight text-ouro">
             Anos Anteriores
             </h1>
             <p className="text-[#BEGE] opacity-90 max-w-xl mx-auto text-sm md:text-base">

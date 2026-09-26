@@ -4,9 +4,12 @@ import "./Organizadores.css"
 
 export default function Organizadores() {
     return (
-        <section className="mt-[130px] pb-[60px]">
-            <div className="titulo">
-                <h1 className="text-[2.8rem] md:text-[3.6rem] font-eloquent font-black titulobrilhante">Organizadores</h1>
+        <section className="mt-[var(--section-gap)]">
+            <div className="titulo flex-col">
+                <h2>A Equipe 2026</h2>
+                <p className="text-center max-w-[560px] mt-4 px-4">
+                    Conheça quem ajudou a construir essa edição do BXCOMP.
+                </p>
             </div>
 
             {organizadoresList.length === 0 ? (

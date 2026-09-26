@@ -1,5 +1,5 @@
+import Header from "@/components/HeaderFooter/Header";
 import Footer from "../../components/HeaderFooter/Footer";
-import Header from "../../components/HeaderFooter/Header";
 import regulamento from "../../data/regulamento.json"
 
 export default function Regulamento() {
@@ -13,10 +13,10 @@ export default function Regulamento() {
 
     return (
         <>
-            <Header />
+            <Header></Header>
             <main className="regulamento-page mt-16 text-center px-6">
 
-                <h1 className="gradiente-titulo font-cinzel_decorative font-black text-3xl md:text-5xl px-2 pt-32 pb-8">Regulamento 2026</h1>
+                <h1 className="gradiente-fixo font-cinzel_decorative font-black text-3xl md:text-5xl px-2 pt-32 pb-8">Regulamento 2026</h1>
 
                 <p className="font-subtitulo text-lg md:text-xl text-bege mb-8">
                     <b className="text-laranja">Última atualização em:</b> {latestDate.toLocaleDateString('pt-BR')}
