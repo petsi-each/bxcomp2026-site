@@ -29,7 +29,7 @@ interface CoroaProps {
 const Coroa: React.FC<CoroaProps> = ({ scorePosition }) => {
     if (scorePosition < 0 || scorePosition > 2) return null;
 
-    const cores = ["var(--ouro)", "var(--azulciano)", "var(--azulsuave)"];
+    const cores = ["var(--ouro)", "var(--prata)", "var(--bronze)"];
     const cor = cores[scorePosition];
 
     return (
