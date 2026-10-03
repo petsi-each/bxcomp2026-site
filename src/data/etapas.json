@@ -133,11 +133,47 @@
     },
     {
         "etapaIndice": 3,
-        "estaLiberada": false,
-        "tema": "",
-        "descricao": "",
-        "iconName": "",
-        "desafios": []
+        "estaLiberada": true,
+        "tema": "Festas",
+        "descricao": "Bandeirinhas no alto e fogueira acesa! No arraiá da coruja, quadrilha, comidas típicas e brincadeiras juninas escondem desafios de programação para os calouros resolverem.",
+        "iconName": "festaJuninaIcon.tsx",
+        "desafios": [
+            {
+                "desafio": "Amor Espelhado - 4 pontos",
+                "enunciado": "etapas/3/Amor Espelhado/BXCOMP.pdf",
+                "resolucao": "etapas/3/Amor Espelhado/sol.c",
+                "entrada": "etapas/3/Amor Espelhado/Entradas.zip",
+                "saida": "etapas/3/Amor Espelhado/Saidas.zip"
+            },
+            {
+                "desafio": "Festival de Parintins - 2 pontos",
+                "enunciado": "etapas/3/Festival de Parintins/BXCOMP.pdf",
+                "resolucao": "etapas/3/Festival de Parintins/sol.c",
+                "entrada": "etapas/3/Festival de Parintins/Entradas.zip",
+                "saida": "etapas/3/Festival de Parintins/Saidas.zip"
+            },
+            {
+                "desafio": "Ô Abre Alas! - 3 pontos",
+                "enunciado": "etapas/3/Ô Abre Alas!/BXCOMP.pdf",
+                "resolucao": "etapas/3/Ô Abre Alas!/sol.c",
+                "entrada": "etapas/3/Ô Abre Alas!/Entradas.zip",
+                "saida": "etapas/3/Ô Abre Alas!/Saidas.zip"
+            },
+            {
+                "desafio": "Rei Leão em Copacabana - 6 pontos",
+                "enunciado": "etapas/3/Rei Leão em Copacabana/BXCOMP.pdf",
+                "resolucao": "etapas/3/Rei Leão em Copacabana/sol.zip",
+                "entrada": "etapas/3/Rei Leão em Copacabana/Entradas.zip",
+                "saida": "etapas/3/Rei Leão em Copacabana/Saidas.zip"
+            },
+            {
+                "desafio": "Saci X Bruxas - 4 pontos",
+                "enunciado": "etapas/3/Saci X Bruxas/BXCOMP.pdf",
+                "resolucao": "etapas/3/Saci X Bruxas/sol.c",
+                "entrada": "etapas/3/Saci X Bruxas/Entradas.zip",
+                "saida": "etapas/3/Saci X Bruxas/Saidas.zip"
+            }  
+        ]
     },
     {
         "etapaIndice": 4,
