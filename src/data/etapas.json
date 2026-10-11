@@ -177,10 +177,46 @@
     },
     {
         "etapaIndice": 4,
-        "estaLiberada": false,
-        "tema": "",
-        "descricao": "",
-        "iconName": "",
-        "desafios": []
+        "estaLiberada": true,
+        "tema": "Folclore",
+        "descricao": "Reza a lenda que o boto-cor-de-rosa se encantou pelas águas do rio e sumiu com pistas importantes! Na última etapa, folclore amazônico e programação se encontram para fechar o BXCOMP 2026.",
+        "iconName": "botoIcon.tsx",
+        "desafios": [
+            {
+                "desafio": "Curupira Exigente - 2 pontos",
+                "enunciado": "etapas/4/Curupira Exigente/BXCOMP.pdf",
+                "resolucao": "etapas/4/Curupira Exigente/sol.c",
+                "entrada": "etapas/4/Curupira Exigente/Entradas.zip",
+                "saida": "etapas/4/Curupira Exigente/Saidas.zip"
+            },
+            {
+                "desafio": "Entre Sacis e Curupiras - 4 pontos",
+                "enunciado": "etapas/4/Entre Sacis e Curupiras/BXCOMP.pdf",
+                "resolucao": "etapas/4/Entre Sacis e Curupiras/sol.c",
+                "entrada": "etapas/4/Entre Sacis e Curupiras/Entradas.zip",
+                "saida": "etapas/4/Entre Sacis e Curupiras/Saidas.zip"
+            },
+            {
+                "desafio": "O Assobio - 3 pontos",
+                "enunciado": "etapas/4/O Assobio/BXCOMP.pdf",
+                "resolucao": "etapas/4/O Assobio/sol.c",
+                "entrada": "etapas/4/O Assobio/Entradas.zip",
+                "saida": "etapas/4/O Assobio/Saidas.zip"
+            },
+            {
+                "desafio": "O Caldeirão da Cuca - 6 pontos",
+                "enunciado": "etapas/4/O Caldeirão da Cuca/BXCOMP.pdf",
+                "resolucao": "etapas/4/O Caldeirão da Cuca/sol.c",
+                "entrada": "etapas/4/O Caldeirão da Cuca/Entradas.zip",
+                "saida": "etapas/4/O Caldeirão da Cuca/Saidas.zip"
+            },
+            {
+                "desafio": "O Lago de Iara - 4 pontos",
+                "enunciado": "etapas/4/O Lago de Iara/BXCOMP.pdf",
+                "resolucao": "etapas/4/O Lago de Iara/sol.c",
+                "entrada": "etapas/4/O Lago de Iara/Entradas.zip",
+                "saida": "etapas/4/O Lago de Iara/Saidas.zip"
+            }  
+        ]
     }
 ]
