@@ -204,14 +204,14 @@
                 "saida": "etapas/4/O Assobio/Saidas.zip"
             },
             {
-                "desafio": "O Caldeirão da Cuca - 6 pontos",
+                "desafio": "O Caldeirão da Cuca - 4 pontos",
                 "enunciado": "etapas/4/O Caldeirão da Cuca/BXCOMP.pdf",
                 "resolucao": "etapas/4/O Caldeirão da Cuca/sol.c",
                 "entrada": "etapas/4/O Caldeirão da Cuca/Entradas.zip",
                 "saida": "etapas/4/O Caldeirão da Cuca/Saidas.zip"
             },
             {
-                "desafio": "O Lago de Iara - 4 pontos",
+                "desafio": "O Lago de Iara - 6 pontos",
                 "enunciado": "etapas/4/O Lago de Iara/BXCOMP.pdf",
                 "resolucao": "etapas/4/O Lago de Iara/sol.c",
                 "entrada": "etapas/4/O Lago de Iara/Entradas.zip",
