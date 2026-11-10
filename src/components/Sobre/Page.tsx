@@ -62,7 +62,10 @@ export default function Sobre() {
                             Em equipes de até 4 pessoas, os calouros encaram 5 etapas presenciais, cada uma com 5
                             problemas para resolver em 2 horas. Os pontos se acumulam a cada etapa, e vence quem
                             somar a maior pontuação ao final. O BXCOMP já reuniu mais de 100 calouros inscritos e
-                            mais de 25 equipes inscritas, numa única edição.
+                            mais de 25 equipes inscritas, numa única edição. <br /><br />
+                            Veja o <Link href="/Regulamento" className="underline decoration-[#FFAF30] underline-offset-4">regulamento</Link>,
+                            os problemas de cada <Link href="/EtapaseDesafios" className="underline decoration-[#FFAF30] underline-offset-4">etapa</Link> e
+                            o <Link href="/RankingeGrupos" className="underline decoration-[#FFAF30] underline-offset-4">ranking das equipes</Link> desta edição.
                         </p>
                     </div>
                 </div>

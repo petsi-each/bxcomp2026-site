@@ -21,11 +21,11 @@ const MainTitle = () => {
               </div>
 
               <h1 className="font-display font-black text-[2.2rem] md:text-[3rem] leading-[1.05] mb-4 text-left">
-                O que é o <span className="gradiente-fixo">BXCOMP</span>?
+                Campeonato de Programação <span className="gradiente-fixo">BXCOMP 2026</span>
               </h1>
 
               <p className="text-bege leading-relaxed text-base md:text-lg w-full text-left sm:text-justify mb-6 font-roboto">
-                O BXComp é o Campeonato de Programação para Calouros do Curso de Sistemas de Informação, organizado pelo PET-SI. Em 2026, a competição celebra as <strong className="text-creme">brasilidades</strong>: cultura, música e tradições do Brasil viram desafio de lógica e programação.
+                O BXCOMP é o campeonato de programação para calouros do curso de Sistemas de Informação da EACH-USP, organizado pelo PET-SI. Em 2026, na 16ª edição, a competição celebra as <strong className="text-creme">brasilidades</strong>: cultura, música e tradições do Brasil viram desafio de lógica e programação. Acompanhe as <a href="/EtapaseDesafios" className="underline decoration-laranja underline-offset-4">etapas e desafios</a> e o <a href="/RankingeGrupos" className="underline decoration-laranja underline-offset-4">ranking das equipes</a>.
               </p>
             </div>
 

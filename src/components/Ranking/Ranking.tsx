@@ -23,7 +23,7 @@ interface CoroaProps {
 }
 
 /**
- * Coroa de penas de carnaval — substitui as coroas do tema anterior.
+ * Coroa de penas de carnaval - substitui as coroas do tema anterior.
  * @param {number} [scorePosition] - Posição no pódio (0 = 1º lugar).
  */
 const Coroa: React.FC<CoroaProps> = ({ scorePosition }) => {
@@ -75,7 +75,7 @@ const PointBar: React.FC<PointBarProps> = ({ equipe, topScores }) => {
                         </div>
                         <div>
                             <figure className="-ml-8 h-20 w-20 relative flex items-center justify-center shadow-soft rounded-full bg-white flex-shrink-0">
-                                <Image style={{ padding: "7px" }} className="rounded-full absolute" src={equipe.iconPath} sizes={"1"} alt={""} fill={true} unoptimized />
+                                <Image style={{ padding: "7px" }} className="rounded-full absolute" src={equipe.iconPath} sizes={"1"} alt={`Logo da equipe ${equipe.nome}`} fill={true} unoptimized />
                                 {posicao >= 0 && posicao <= 2 && (
                                     <div className="absolute w-11 h-11 -top-9">
                                         <Coroa scorePosition={posicao} />
@@ -96,7 +96,7 @@ const PointBar: React.FC<PointBarProps> = ({ equipe, topScores }) => {
                     </div>
                     <div>
                         <figure className="-ml-8 h-20 w-20 relative flex items-center justify-center shadow-soft rounded-full bg-white flex-shrink-0">
-                            <Image style={{ padding: "7px" }} className="rounded-full absolute" src={equipe.iconPath} sizes={"1"} alt={""} fill={true} unoptimized />
+                            <Image style={{ padding: "7px" }} className="rounded-full absolute" src={equipe.iconPath} sizes={"1"} alt={`Logo da equipe ${equipe.nome}`} fill={true} unoptimized />
                             {posicao >= 0 && posicao <= 2 && (
                                 <div className="absolute w-11 h-11 -top-9">
                                     <Coroa scorePosition={posicao} />
@@ -136,9 +136,9 @@ const Ranking: React.FC<RankingProps> = ({ equipes, displayQuantity = -1 }) => {
 
     return (
         <section className="pt-[50px] pb-[30px] pl-8 sm:pl-20 pr-8 sm:pr-20">
-            <h1 className="text-[3.2rem] w-fit font-black font-cinzel_decorative gradiente-fixo mb-4" style={{ marginTop: "10px" }}>
+            <h2 className="text-[3.2rem] w-fit font-black font-cinzel_decorative gradiente-fixo mb-4" style={{ marginTop: "10px" }}>
                 Ranking
-            </h1>
+            </h2>
 
             {equipes.length === 0 ? (
                 <div className="px-8 py-14 text-center border border-dashed border-bege/30 rounded-card">

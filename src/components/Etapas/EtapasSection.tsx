@@ -10,9 +10,9 @@ const EtapasSection = () => {
     return (
         <div id="EtapasSection" className="w-full flex flex-col justify-center gap-4 px-7 py-[3rem] md:px-20 ">
             <div id="Cabecalho" className="mb-[40px]">
-                <h1 className="block font-cinzel_decorative text-[3.2rem] font-black text-ouro">
+                <h2 className="block font-cinzel_decorative text-[3.2rem] font-black text-ouro">
                     Etapas
-                </h1>
+                </h2>
                 <p className="inline-block md:w-[26rem] mt-[10px] font-roboto font-medium text-base text-amarelo">
                     Estude ao rever os temas, desafios e resoluções já apresentadas nesta edição do BXCOMP!
                 </p>

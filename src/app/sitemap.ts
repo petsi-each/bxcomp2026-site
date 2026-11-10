@@ -1,35 +1,16 @@
 import type { MetadataRoute } from "next";
+import { SITE_URL, CONTENT_UPDATED } from "@/lib/seo";
 
 export const dynamic = "force-static";
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const baseURL = "https://bxcomp26.petsieach.com.br";
-  const now = new Date().toISOString();
+// Caminhos com a mesma caixa das URLs reais e dos canonicals de cada página.
+const paths = ["", "/Sobre", "/Regulamento", "/EtapaseDesafios", "/RankingeGrupos", "/AnosAnteriores"];
 
-  return [
-    {
-      url: baseURL,
-      lastModified: now,
-    },
-    {
-      url: `${baseURL}/Sobre`,
-      lastModified: now,
-    },
-    {
-      url: `${baseURL}/Regulamento`,
-      lastModified: now,
-    },
-    {
-      url: `${baseURL}/EtapaseDesafios`,
-      lastModified: now,
-    },
-    {
-      url: `${baseURL}/RankingeGrupos`,
-      lastModified: now,
-    },
-    {
-      url: `${baseURL}/AnosAnteriores`,
-      lastModified: now,
-    },
-  ];
+export default function sitemap(): MetadataRoute.Sitemap {
+    const lastModified = new Date(CONTENT_UPDATED);
+
+    return paths.map((path) => ({
+        url: `${SITE_URL}${path}`,
+        lastModified,
+    }));
 }

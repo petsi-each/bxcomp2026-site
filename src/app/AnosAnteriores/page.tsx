@@ -1,5 +1,15 @@
+import type { Metadata } from 'next';
+import Link from 'next/link';
 import Header from '@/components/HeaderFooter/Header';
 import React from 'react';
+import { pageMetadata } from '@/lib/seo';
+
+export const metadata: Metadata = pageMetadata({
+  title: 'Anos anteriores: edições passadas do campeonato',
+  description:
+    'Relembre as edições anteriores do BXCOMP, campeonato de programação para calouros de Sistemas de Informação da EACH-USP: temas, desafios e equipes de cada ano.',
+  path: '/AnosAnteriores',
+});
 
 export default function AnosAnteriores() {
   const edicoes = [
@@ -72,6 +82,21 @@ export default function AnosAnteriores() {
             </div>
             ))}
         </div>
+
+        <section className="max-w-4xl w-full mt-14 pb-8 text-center space-y-4">
+            <h2 className="text-2xl md:text-3xl font-brasileira text-ouro">Uma história de 16 edições</h2>
+            <p className="text-sm md:text-base text-[#E1FADF]/80 leading-relaxed">
+                O BXCOMP começou em 2011, quando o PET-SI organizou o 1º Campeonato de Programação para Calouros do
+                curso de Sistemas de Informação da EACH-USP. Desde então, cada nova turma de ingressantes é recebida
+                com uma edição, com tema próprio e desafios inéditos. Em 2026 a competição chega à 16ª edição, com o
+                tema Brasilidades.
+            </p>
+            <p className="text-sm md:text-base text-[#E1FADF]/80 leading-relaxed">
+                Veja <Link href="/Sobre" className="underline decoration-[#02C59B] underline-offset-4 hover:text-[#02C59B]">como o campeonato funciona</Link>,
+                os <Link href="/EtapaseDesafios" className="underline decoration-[#02C59B] underline-offset-4 hover:text-[#02C59B]">desafios da edição atual</Link> e
+                o <Link href="/RankingeGrupos" className="underline decoration-[#02C59B] underline-offset-4 hover:text-[#02C59B]">ranking das equipes de 2026</Link>.
+            </p>
+        </section>
         </div>
     </div>
   );

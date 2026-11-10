@@ -21,7 +21,7 @@ export default function BotaoEquipe(props: BotaoEquipeProps) {
 
         <button aria-label={`mostrar equipe ${props.equipe.nome}`} onClick={props.onClick} className={`flex flex-col w-[7.5rem] h-[7.5rem] bg-white items-center justify-center rounded-[22%] border-azulelegante hover:scale-110 transition-transform ${props.selecionado ? 'border-4 scale-110' : 'border-2'}`}>
             <div className="relative m-2 w-20 h-16">
-                <Image className="object-contain" src={props.equipe.iconPath} fill={true} alt="" unoptimized></Image>
+                <Image className="object-contain" src={props.equipe.iconPath} fill={true} alt={`Logo da equipe ${props.equipe.nome}`} unoptimized></Image>
             </div>
             <p className="w-[5.5rem] truncate text-[0.95rem] text-center text-preto p-1 font-roboto"> {props.equipe.nome} </p>
         </button>

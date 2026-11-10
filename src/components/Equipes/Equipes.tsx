@@ -29,7 +29,7 @@ const Equipes: React.FC<EquipesProps> = ({ equipes }) => {
     return (
         <section className='pb-[5rem] pt-[5rem] bg-creme relative'>
 
-            <h1 className="text-azulescuro font-eloquent font-extrabold text-[3.2rem] pl-8 sm:pl-20"> Equipes </h1>
+            <h2 className="text-azulescuro font-eloquent font-extrabold text-[3.2rem] pl-8 sm:pl-20"> Equipes </h2>
             <p className="p-4 font-roboto text-md text-left text-preto pl-8 sm:pl-20 mb-4"> Conheça os competidores deste ano! </p>
 
             {equipes.length === 0 ? (
@@ -76,7 +76,7 @@ const Equipes: React.FC<EquipesProps> = ({ equipes }) => {
 
                             {/* Conteúdo do Card */}
                             <div className="w-32 h-32 rounded-full bg-white flex items-center justify-center p-5 shadow-soft mb-5 z-10">
-                                <Image className="w-full h-full object-contain" alt="" width={110} height={110} src={equipes[idSelecionado].iconPath} unoptimized />
+                                <Image className="w-full h-full object-contain" alt={`Logo da equipe ${equipes[idSelecionado].nome}`} width={110} height={110} src={equipes[idSelecionado].iconPath} unoptimized />
                             </div>
 
                             <p className="font-subtitulo font-bold text-laranja mb-1 z-10">
